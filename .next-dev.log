@@ -1,0 +1,86 @@
+
+> ldz-group-website@0.1.0 dev
+> next dev
+
+   ▲ Next.js 15.3.0
+   - Local:        http://localhost:3000
+   - Network:      http://192.168.0.132:3000
+
+ ✓ Starting...
+ ✓ Ready in 5.2s
+ ○ Compiling / ...
+ ✓ Compiled / in 4.2s (786 modules)
+ GET / 200 in 4650ms
+ GET / 200 in 123ms
+ ✓ Compiled /_not-found in 455ms (790 modules)
+ GET /images/home/energy.jpg 404 in 731ms
+ GET /images/home/parking-charging.jpg 404 in 736ms
+ GET /images/home/security-camera.jpg 404 in 741ms
+ GET /images/home/automation-cloud.jpg 404 in 746ms
+ GET /images/products/ai-security.jpg 404 in 124ms
+ GET /images/products/automation-service.jpg 404 in 142ms
+ GET /images/products/smart-energy.jpg 404 in 144ms
+ GET /images/solutions/parking-ev.jpg 404 in 148ms
+ ✓ Compiled /solutions in 350ms (784 modules)
+ GET /solutions 200 in 461ms
+ GET /images/solutions/community-building.jpg 404 in 218ms
+ GET /images/solutions/factory-energy.jpg 404 in 219ms
+ GET /images/solutions/smart-security.jpg 404 in 224ms
+ GET /images/solutions/medical-public.jpg 404 in 227ms
+ GET /images/solutions/parking-ev.jpg 404 in 232ms
+ ✓ Compiled /about in 251ms (789 modules)
+ GET /about 200 in 303ms
+ ✓ Compiled /products in 287ms (792 modules)
+ GET /products 200 in 400ms
+ GET /images/products/smart-energy.jpg 404 in 219ms
+ GET /images/products/parking-charging.jpg 404 in 219ms
+ GET /images/products/self-service-medical.jpg 404 in 223ms
+ GET /images/products/ai-security.jpg 404 in 227ms
+ GET /images/products/automation-service.jpg 404 in 231ms
+ GET /solutions 200 in 26ms
+ GET /images/solutions/community-building.jpg 404 in 190ms
+ GET /images/solutions/parking-ev.jpg 404 in 204ms
+ GET /images/solutions/factory-energy.jpg 404 in 206ms
+ GET /images/solutions/medical-public.jpg 404 in 209ms
+ GET /images/solutions/smart-security.jpg 404 in 211ms
+ ✓ Compiled /cases in 276ms (795 modules)
+ GET /cases 200 in 321ms
+ GET / 200 in 40ms
+ GET /images/home/energy.jpg 404 in 165ms
+ GET /images/home/parking-charging.jpg 404 in 170ms
+ GET /images/home/security-camera.jpg 404 in 175ms
+ GET /images/home/automation-cloud.jpg 404 in 178ms
+ GET /images/products/smart-energy.jpg 404 in 136ms
+ GET /images/solutions/parking-ev.jpg 404 in 153ms
+ GET /images/products/ai-security.jpg 404 in 156ms
+ GET /images/products/automation-service.jpg 404 in 159ms
+ GET /products 200 in 34ms
+ GET /images/products/smart-energy.jpg 404 in 161ms
+ GET /images/products/parking-charging.jpg 404 in 165ms
+ GET /images/products/ai-security.jpg 404 in 167ms
+ GET /images/products/automation-service.jpg 404 in 172ms
+ GET /images/products/self-service-medical.jpg 404 in 176ms
+ GET /images/home/energy.jpg 404 in 51ms
+ GET /images/home/parking-charging.jpg 404 in 172ms
+ GET /images/home/security-camera.jpg 404 in 176ms
+ GET /images/home/automation-cloud.jpg 404 in 179ms
+ GET /images/solutions/parking-ev.jpg 404 in 211ms
+ GET /images/products/smart-energy.jpg 404 in 215ms
+ GET /images/products/ai-security.jpg 404 in 102ms
+ GET /images/products/automation-service.jpg 404 in 92ms
+ GET /products 200 in 26ms
+ GET /images/products/smart-energy.jpg 404 in 197ms
+ GET /images/products/parking-charging.jpg 404 in 212ms
+ GET /images/products/ai-security.jpg 404 in 215ms
+ GET /images/products/automation-service.jpg 404 in 218ms
+ GET /images/products/self-service-medical.jpg 404 in 219ms
+ GET /images/home/energy.jpg 404 in 167ms
+ GET /images/home/parking-charging.jpg 404 in 169ms
+ GET /images/home/security-camera.jpg 404 in 170ms
+ GET /images/home/automation-cloud.jpg 404 in 174ms
+ GET /images/products/smart-energy.jpg 404 in 182ms
+ GET /images/solutions/parking-ev.jpg 404 in 185ms
+ GET /images/products/ai-security.jpg 404 in 187ms
+ GET /images/products/automation-service.jpg 404 in 192ms
+ ✓ Compiled /future-ai in 419ms (798 modules)
+ GET /future-ai 200 in 519ms

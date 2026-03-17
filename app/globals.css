@@ -1,0 +1,117 @@
+@import "tailwindcss";
+
+:root {
+  --background: #f4f8fc;
+  --surface: #ffffff;
+  --surface-muted: #edf4fb;
+  --foreground: #11203a;
+  --muted: #5c6d85;
+  --line: #dbe5f0;
+  --primary: #0c4da2;
+  --primary-dark: #0a2b62;
+  --primary-soft: #e8f1fb;
+  --accent: #1d8bdb;
+  --brand-cyan: #22c4d6;
+  --brand-mint: #7fd9b8;
+  --brand-yellow: #ffdb1f;
+  --brand-yellow-soft: #fff6c9;
+  --brand-mint-soft: #edf9f4;
+  --container: 1280px;
+  --shadow-soft: 0 16px 40px rgba(14, 42, 86, 0.08);
+  --shadow-card: 0 24px 60px rgba(10, 43, 98, 0.1);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  color: var(--foreground);
+  background:
+    radial-gradient(circle at top right, rgba(34, 196, 214, 0.09), transparent 24%),
+    radial-gradient(circle at 88% 14%, rgba(255, 219, 31, 0.12), transparent 14%),
+    radial-gradient(circle at 12% 18%, rgba(127, 217, 184, 0.08), transparent 16%),
+    linear-gradient(180deg, #ffffff 0%, var(--background) 100%);
+  font-family:
+    "Noto Sans TC", "PingFang TC", "Microsoft JhengHei", ui-sans-serif, system-ui,
+    sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+.site-shell {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.site-main {
+  flex: 1;
+}
+
+.container-shell {
+  width: min(calc(100% - 2rem), var(--container));
+  margin: 0 auto;
+}
+
+.section-space {
+  padding: 5.5rem 0;
+}
+
+.text-balance {
+  text-wrap: balance;
+}
+
+.brand-divider {
+  height: 1px;
+  background: linear-gradient(
+    90deg,
+    rgba(10, 43, 98, 0.08) 0%,
+    rgba(29, 139, 219, 0.3) 30%,
+    rgba(127, 217, 184, 0.5) 60%,
+    rgba(255, 219, 31, 0.55) 100%
+  );
+}
+
+.btn-light {
+  display: inline-flex;
+  min-height: 3rem;
+  align-items: center;
+  justify-content: center;
+  border-radius: 1rem;
+  border: 1px solid rgba(127, 217, 184, 0.45);
+  background: linear-gradient(180deg, #ffffff 0%, #f4fbf7 100%);
+  padding: 0 1.5rem;
+  color: var(--primary-dark);
+  font-size: 0.875rem;
+  font-weight: 600;
+  box-shadow: var(--shadow-soft);
+  transition:
+    transform 0.2s ease,
+    border-color 0.2s ease,
+    box-shadow 0.2s ease;
+}
+
+.btn-light:hover {
+  transform: translateY(-2px);
+  border-color: rgba(34, 196, 214, 0.38);
+  box-shadow: 0 20px 40px rgba(10, 43, 98, 0.1);
+}
+
+@media (max-width: 768px) {
+  .section-space {
+    padding: 4rem 0;
+  }
+}
