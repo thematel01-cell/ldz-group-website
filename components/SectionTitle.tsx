@@ -33,7 +33,9 @@ export function SectionTitle({
         {title}
       </h2>
       {description ? (
-        <p className={`mt-4 text-base leading-7 md:text-lg ${bodyClass}`}>{description}</p>
+        <p className={`mt-4 whitespace-pre-line text-base leading-7 md:text-lg ${bodyClass}`}>
+          {description}
+        </p>
       ) : null}
     </div>
   );

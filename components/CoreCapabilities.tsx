@@ -14,10 +14,10 @@ export function CoreCapabilities() {
       <div className="container-shell">
         <SectionTitle
           eyebrow={locale === "zh" ? "核心能力" : "Core Capabilities"}
-          title={locale === "zh" ? "四大核心能力" : "Four Core Capabilities"}
+          title={locale === "zh" ? "核心服務" : "Four Core Capabilities"}
           description={
             locale === "zh"
-              ? "將原型中的核心卡片升級為正式官網級資訊模組，統一圖片比例、卡片節奏與內容結構。"
+              ? "將原型中的核心卡片升級為正式官網版資訊模組，統一圖片比例、卡片節奏與內容結構。"
               : "The prototype's key cards are upgraded into a formal corporate website module with consistent image ratio, rhythm, and structure."
           }
         />

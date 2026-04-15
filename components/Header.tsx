@@ -56,7 +56,7 @@ export function Header() {
               }`}
               onClick={() => setLocale("zh")}
             >
-              中
+              中文
             </button>
             <button
               type="button"
@@ -68,12 +68,6 @@ export function Header() {
               EN
             </button>
           </div>
-          <Link
-            href="/contact"
-            className="hidden min-h-11 items-center rounded-2xl bg-[linear-gradient(135deg,var(--primary-dark),var(--primary))] px-5 text-sm font-semibold text-white shadow-[var(--shadow-soft)] lg:inline-flex"
-          >
-            {t(siteConfig.navItems[6].label, locale)}
-          </Link>
           <button
             type="button"
             className="inline-flex h-11 w-11 items-center justify-center rounded-2xl border border-[var(--line)] bg-white text-[var(--primary-dark)] lg:hidden"
@@ -104,7 +98,7 @@ export function Header() {
                 }`}
                 onClick={() => setLocale("zh")}
               >
-                中
+                中文
               </button>
               <button
                 type="button"

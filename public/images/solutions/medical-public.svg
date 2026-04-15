@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0c2c62"/>
+      <stop offset="60%" stop-color="#1660ad"/>
+      <stop offset="100%" stop-color="#76d9c3"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="160" y="190" width="520" height="460" rx="40" fill="#ffffff" opacity="0.14"/>
+  <rect x="260" y="250" width="320" height="320" rx="28" fill="#f5fbff"/>
+  <rect x="330" y="314" width="180" height="150" rx="22" fill="#86e4ff"/>
+  <path d="M402 346h36M420 328v36" stroke="#0f4d97" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(840 230)">
+    <rect width="540" height="320" rx="34" fill="#ffffff" opacity="0.14"/>
+    <rect x="60" y="72" width="170" height="180" rx="24" fill="#102d55"/>
+    <rect x="96" y="108" width="98" height="100" rx="18" fill="#84e4ff"/>
+    <rect x="270" y="86" width="210" height="24" rx="12" fill="#d8ebff"/>
+    <rect x="270" y="130" width="180" height="18" rx="9" fill="#d8ebff" opacity="0.74"/>
+    <rect x="270" y="162" width="150" height="18" rx="9" fill="#d8ebff" opacity="0.58"/>
+  </g>
+  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">HEALTHCARE &amp; PUBLIC SITE</text>
+</svg>

@@ -16,7 +16,7 @@ export const productCategories: ProductCategory[] = [
       zh: "整合 EMS、儲能、太陽能、配電監控與微電網管理，協助企業提升能源效率與彈性。",
       en: "Integrates EMS, storage, solar, distribution monitoring, and microgrid management for better energy efficiency and resilience."
     },
-    image: "/images/products/smart-energy.jpg",
+    image: "/images/products/smart-energy.svg",
     items: [
       { zh: "EMS 平台", en: "EMS Platform" },
       { zh: "電力監控", en: "Power Monitoring" },
@@ -31,7 +31,7 @@ export const productCategories: ProductCategory[] = [
       zh: "從進出場控制到充電營運管理，串接車牌辨識、收費、場控與雲端平台。",
       en: "From vehicle entry control to charging operations, connecting LPR, billing, site control, and cloud management."
     },
-    image: "/images/products/parking-charging.jpg",
+    image: "/images/products/parking-charging.svg",
     items: [
       { zh: "LPR 車牌辨識", en: "LPR Recognition" },
       { zh: "停管系統", en: "Parking Management" },
@@ -46,7 +46,7 @@ export const productCategories: ProductCategory[] = [
       zh: "以立達興自研攝影機與 AI 影像分析為核心，強化事件偵測與場域治理。",
       en: "Built on LDZ-developed cameras and AI analytics to strengthen event detection and site governance."
     },
-    image: "/images/products/ai-security.jpg",
+    image: "/images/products/ai-security.svg",
     items: [
       { zh: "自研攝影機", en: "LDZ Cameras" },
       { zh: "周界防護", en: "Perimeter Protection" },
@@ -61,7 +61,7 @@ export const productCategories: ProductCategory[] = [
       zh: "整合設備控制、資料交換、機器人與雲端服務，打造可擴充的營運架構。",
       en: "Integrates equipment control, data exchange, robotics, and cloud services into a scalable operating architecture."
     },
-    image: "/images/products/automation-service.jpg",
+    image: "/images/products/automation-service.svg",
     items: [
       { zh: "設備整合", en: "Equipment Integration" },
       { zh: "機器人應用", en: "Robotics Applications" },
@@ -76,7 +76,7 @@ export const productCategories: ProductCategory[] = [
       zh: "支援自助報到、流程導引、資訊看板與醫療場域數位化整合需求。",
       en: "Supports self check-in, guided workflows, digital signage, and healthcare site digitization."
     },
-    image: "/images/products/self-service-medical.jpg",
+    image: "/images/products/self-service-medical.svg",
     items: [
       { zh: "自助報到", en: "Self Check-In" },
       { zh: "智慧櫃台", en: "Smart Counter" },

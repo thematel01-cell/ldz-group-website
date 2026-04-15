@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <rect width="1600" height="900" fill="#103a78"/>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0b2a5b"/>
+      <stop offset="60%" stop-color="#1666c0"/>
+      <stop offset="100%" stop-color="#6fd6c3"/>
+    </linearGradient>
+  </defs>
+  <circle cx="1260" cy="200" r="170" fill="#ffe26b" opacity="0.35"/>
+  <rect x="120" y="530" width="1360" height="230" rx="34" fill="#ffffff" opacity="0.12"/>
+  <rect x="200" y="250" width="190" height="270" rx="24" fill="#eff8ff"/>
+  <rect x="248" y="300" width="94" height="96" rx="16" fill="#0f4d97"/>
+  <path d="M294 318l-18 42h24l-12 24 48-48h-28l12-18z" fill="#ffe684"/>
+  <g transform="translate(500 250)">
+    <rect width="300" height="200" rx="22" fill="#0f4d97" transform="skewX(-12)"/>
+    <g stroke="#d9f3ff" opacity="0.5">
+      <path d="M36 30h200M26 68h210M16 106h210M6 144h210M-4 182h210"/>
+      <path d="M50 12v176M120 6v184M190 0v190"/>
+    </g>
+  </g>
+  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">SMART ENERGY</text>
+</svg>

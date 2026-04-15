@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#081d43"/>
+      <stop offset="58%" stop-color="#0d519f"/>
+      <stop offset="100%" stop-color="#69d0b9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="130" y="180" width="610" height="420" rx="40" fill="#ffffff" opacity="0.12"/>
+  <rect x="265" y="320" width="280" height="110" rx="30" fill="#f6fbff"/>
+  <path d="M545 375h180l64-58v116l-64-58H545z" fill="#dcefff"/>
+  <circle cx="390" cy="375" r="64" fill="#0f3967"/>
+  <circle cx="390" cy="375" r="38" fill="#7fe1ff"/>
+  <g transform="translate(910 200)">
+    <rect width="420" height="260" rx="28" fill="#11284a"/>
+    <rect x="38" y="40" width="138" height="84" rx="18" fill="#78dbff"/>
+    <rect x="208" y="48" width="170" height="20" rx="10" fill="#d5ebff"/>
+    <rect x="208" y="86" width="138" height="16" rx="8" fill="#d5ebff" opacity="0.75"/>
+    <rect x="208" y="118" width="98" height="16" rx="8" fill="#d5ebff" opacity="0.58"/>
+  </g>
+  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">AI SECURITY VISION</text>
+</svg>

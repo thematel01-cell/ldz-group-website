@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Parking and EV Charging</title>
+  <desc id="desc">Illustration showing EV charging stations, parking guidance, and a connected operations dashboard.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a2b62"/>
+      <stop offset="48%" stop-color="#135bb3"/>
+      <stop offset="100%" stop-color="#58cdb9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <rect x="0" y="620" width="1600" height="280" fill="#f3f7fb" opacity="0.14"/>
+  <g opacity="0.18">
+    <path d="M90 200h1420M90 300h1420M90 400h1420M90 500h1420" stroke="#ffffff" stroke-width="3"/>
+  </g>
+  <g transform="translate(140 170)">
+    <rect x="0" y="0" width="520" height="360" rx="34" fill="#ffffff" opacity="0.14"/>
+    <rect x="48" y="60" width="140" height="250" rx="20" fill="#0f315c"/>
+    <rect x="78" y="100" width="80" height="72" rx="14" fill="#73d8ff"/>
+    <path d="M190 118h34c24 0 44 20 44 44v34" fill="none" stroke="#d8f2ff" stroke-width="14" stroke-linecap="round"/>
+    <path d="M268 196l30 0" stroke="#d8f2ff" stroke-width="14" stroke-linecap="round"/>
+    <path d="M145 335c0 34-26 62-58 62s-58-28-58-62 26-62 58-62 58 28 58 62z" fill="#102949"/>
+    <path d="M383 335c0 34-26 62-58 62s-58-28-58-62 26-62 58-62 58 28 58 62z" fill="#102949"/>
+    <path d="M112 335c0 15-11 26-25 26s-25-11-25-26 11-26 25-26 25 11 25 26z" fill="#9dd9ff"/>
+    <path d="M350 335c0 15-11 26-25 26s-25-11-25-26 11-26 25-26 25 11 25 26z" fill="#9dd9ff"/>
+    <path d="M83 275h215l30-74h86l34 74h44v44H41v-44h42z" fill="#ebf7ff"/>
+    <rect x="322" y="83" width="128" height="92" rx="18" fill="#ffffff" opacity="0.92"/>
+    <text x="386" y="142" text-anchor="middle" fill="#0d4a97" font-size="56" font-family="Arial" font-weight="700">P</text>
+  </g>
+  <g transform="translate(820 140)">
+    <rect x="0" y="0" width="620" height="420" rx="36" fill="#ffffff" opacity="0.16"/>
+    <rect x="78" y="75" width="160" height="255" rx="24" fill="#0c294f"/>
+    <rect x="110" y="107" width="96" height="112" rx="16" fill="#8ae8ff"/>
+    <rect x="132" y="132" width="52" height="18" rx="9" fill="#0d4b95"/>
+    <circle cx="158" cy="272" r="20" fill="#7dd5c7"/>
+    <path d="M238 132h56c44 0 80 36 80 80v26" fill="none" stroke="#daf2ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M374 238l28 0" stroke="#daf2ff" stroke-width="16" stroke-linecap="round"/>
+    <g transform="translate(320 152)">
+      <path d="M74 0c77 0 140 48 140 110s-63 110-140 110S0 172 0 110 63 0 74 0z" fill="#eff8ff"/>
+      <path d="M52 88l40-44 34 24 51-24 19 33-86 98z" fill="#0e5fbb"/>
+      <circle cx="48" cy="194" r="32" fill="#11284a"/>
+      <circle cx="163" cy="194" r="32" fill="#11284a"/>
+      <circle cx="48" cy="194" r="13" fill="#8edcff"/>
+      <circle cx="163" cy="194" r="13" fill="#8edcff"/>
+    </g>
+  </g>
+  <text x="108" y="122" fill="#ffffff" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">SMART PARKING &amp; EV</text>
+  <text x="108" y="176" fill="#dcecff" font-size="28" font-family="Arial, Helvetica, sans-serif">Parking guidance / charging / cloud operations</text>
+</svg>

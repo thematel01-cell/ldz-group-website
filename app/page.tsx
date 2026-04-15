@@ -28,7 +28,7 @@ export default function HomePage() {
             title={t(aboutSummary.title, locale)}
             description={t(aboutSummary.description, locale)}
           />
-          <div className="grid gap-4">
+          <div className="grid gap-4 lg:pt-24">
             {aboutSummary.highlights.map((item, index) => (
               <div
                 key={`about-highlight-${index}`}

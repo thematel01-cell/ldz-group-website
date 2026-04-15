@@ -10,6 +10,10 @@ import { useLocale } from "./LocaleProvider";
 
 export function HeroSection() {
   const { locale } = useLocale();
+  const heroDescription =
+    locale === "zh"
+      ? "提供各類環境與場域更安全、更高效、更智慧的 AI 智慧解決方案，整合能源管理、充電樁系統、儲能設備、智慧停車、影像監控、自助服務設備與雲端平台應用。"
+      : t(homeHero.description, locale);
 
   return (
     <section className="relative overflow-hidden pb-10 pt-16 md:pb-14 md:pt-24">
@@ -31,7 +35,7 @@ export function HeroSection() {
             </span>
           </h1>
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[var(--muted)]">
-            {t(homeHero.description, locale)}
+            {heroDescription}
           </p>
           <div className="mt-8 flex flex-wrap gap-4">
             <Link
@@ -48,20 +52,30 @@ export function HeroSection() {
             </Link>
           </div>
           <div className="mt-10 grid gap-4 sm:grid-cols-2 xl:grid-cols-4">
-            {homeHero.stats.map((stat, index) => (
-              <div
-                key={`hero-stat-${stat.value}-${index}`}
-                className="rounded-[24px] border border-[var(--line)] bg-[linear-gradient(180deg,#ffffff_0%,#fbfeff_82%)] p-5 shadow-[var(--shadow-soft)]"
-              >
-                <div className="text-3xl font-semibold text-[var(--primary-dark)]">
-                  {stat.value}
+            {homeHero.stats.map((stat, index) => {
+              const displayValue = index === 3 ? "1000+" : stat.value;
+              const displayLabel =
+                index === 3
+                  ? locale === "zh"
+                    ? "應用場域"
+                    : "Application Sites"
+                  : t(stat.label, locale);
+
+              return (
+                <div
+                  key={`hero-stat-${displayValue}-${index}`}
+                  className="rounded-[24px] border border-[var(--line)] bg-[linear-gradient(180deg,#ffffff_0%,#fbfeff_82%)] p-5 shadow-[var(--shadow-soft)]"
+                >
+                  <div className="text-3xl font-semibold text-[var(--primary-dark)]">
+                    {displayValue}
+                  </div>
+                  <div className="mt-2 text-sm font-medium text-[var(--muted)]">
+                    {displayLabel}
+                  </div>
+                  <div className="brand-divider mt-4" />
                 </div>
-                <div className="mt-2 text-sm font-medium text-[var(--muted)]">
-                  {t(stat.label, locale)}
-                </div>
-                <div className="brand-divider mt-4" />
-              </div>
-            ))}
+              );
+            })}
           </div>
         </div>
 

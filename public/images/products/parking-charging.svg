@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a2b62"/>
+      <stop offset="55%" stop-color="#135bb3"/>
+      <stop offset="100%" stop-color="#58cdb9"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <rect x="140" y="220" width="520" height="370" rx="36" fill="#ffffff" opacity="0.14"/>
+  <rect x="220" y="290" width="110" height="215" rx="22" fill="#102e56"/>
+  <rect x="246" y="324" width="58" height="76" rx="14" fill="#83e2ff"/>
+  <path d="M330 336h40c30 0 54 24 54 54v24" fill="none" stroke="#dff5ff" stroke-width="14" stroke-linecap="round"/>
+  <path d="M424 414h24" fill="none" stroke="#dff5ff" stroke-width="14" stroke-linecap="round"/>
+  <g transform="translate(760 260)">
+    <path d="M108 190h250l42-74h96l52 74h52v52H60v-52h48z" fill="#eef8ff"/>
+    <circle cx="166" cy="242" r="42" fill="#10284a"/>
+    <circle cx="456" cy="242" r="42" fill="#10284a"/>
+    <circle cx="166" cy="242" r="16" fill="#8fdcff"/>
+    <circle cx="456" cy="242" r="16" fill="#8fdcff"/>
+  </g>
+  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">PARKING &amp; EV</text>
+</svg>
