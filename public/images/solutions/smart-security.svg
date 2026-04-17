@@ -1,23 +1,30 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Security Solution</title>
+  <desc id="desc">Security camera network, edge analytics, and alert tracking platform.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#071d43"/>
-      <stop offset="58%" stop-color="#0d519f"/>
-      <stop offset="100%" stop-color="#69d0b9"/>
+      <stop offset="55%" stop-color="#0b4e9f"/>
+      <stop offset="100%" stop-color="#61ceb4"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="160" y="220" width="540" height="390" rx="40" fill="#ffffff" opacity="0.12"/>
-  <rect x="260" y="350" width="230" height="94" rx="28" fill="#f6fbff"/>
-  <path d="M490 397h144l52-50v100l-52-50H490z" fill="#dcefff"/>
-  <circle cx="370" cy="397" r="54" fill="#0f3967"/>
-  <circle cx="370" cy="397" r="32" fill="#7fe1ff"/>
-  <g transform="translate(860 220)">
-    <rect width="520" height="300" rx="34" fill="#ffffff" opacity="0.14"/>
-    <rect x="54" y="52" width="148" height="88" rx="18" fill="#78dbff"/>
-    <rect x="236" y="58" width="220" height="22" rx="11" fill="#d5ebff"/>
-    <rect x="236" y="100" width="170" height="18" rx="9" fill="#d5ebff" opacity="0.74"/>
-    <rect x="236" y="132" width="120" height="18" rx="9" fill="#d5ebff" opacity="0.58"/>
+  <g transform="translate(120 190)">
+    <rect x="0" y="0" width="1360" height="410" rx="40" fill="#ffffff" opacity="0.12"/>
+    <rect x="80" y="124" width="310" height="120" rx="34" fill="#f7fbff"/>
+    <path d="M390 184h170l68-60v122l-68-62H390z" fill="#dcefff"/>
+    <circle cx="246" cy="184" r="62" fill="#103765"/>
+    <circle cx="246" cy="184" r="40" fill="#75deff"/>
+    <circle cx="246" cy="184" r="18" fill="#0d4c97"/>
+    <rect x="720" y="72" width="330" height="250" rx="30" fill="#102949"/>
+    <rect x="754" y="106" width="262" height="116" rx="18" fill="#8ae8ff"/>
+    <rect x="754" y="256" width="180" height="20" rx="10" fill="#d9edff"/>
+    <g transform="translate(1100 124)">
+      <rect width="180" height="180" rx="24" fill="#eff8ff"/>
+      <rect x="30" y="30" width="120" height="72" rx="14" fill="#7de4ff"/>
+      <rect x="30" y="124" width="82" height="18" rx="9" fill="#0f4c97"/>
+      <rect x="30" y="152" width="60" height="18" rx="9" fill="#ffda74"/>
+    </g>
   </g>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">SMART SECURITY</text>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">SMART SECURITY</text>
 </svg>

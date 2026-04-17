@@ -1,0 +1,33 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="banner" x1="126" y1="120" x2="1070" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10306F"/>
+      <stop offset="1" stop-color="#2684DD"/>
+    </linearGradient>
+    <linearGradient id="core" x1="436" y1="286" x2="764" y2="510" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F86E0"/>
+      <stop offset="1" stop-color="#10306F"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <rect x="76" y="72" width="1048" height="531" rx="34" fill="#FFF" stroke="#D5E2F5"/>
+  <rect x="126" y="120" width="948" height="122" rx="28" fill="url(#banner)"/>
+  <text x="182" y="177" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="700">EMS 能源管理模組</text>
+  <text x="182" y="218" fill="rgba(255,255,255,0.82)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24">群組限流、時間電價調度與負載平衡控制核心</text>
+  <circle cx="600" cy="392" r="138" fill="url(#core)"/>
+  <text x="533" y="382" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="700">EMS</text>
+  <text x="494" y="420" fill="rgba(255,255,255,0.82)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22">負載調度 / 契約保護</text>
+  <rect x="182" y="356" width="174" height="72" rx="22" fill="#F4F8FF" stroke="#D7E4F8"/>
+  <rect x="844" y="356" width="174" height="72" rx="22" fill="#F4F8FF" stroke="#D7E4F8"/>
+  <rect x="514" y="494" width="172" height="72" rx="22" fill="#F4F8FF" stroke="#D7E4F8"/>
+  <text x="220" y="401" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24" font-weight="700">群組限流</text>
+  <text x="878" y="401" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24" font-weight="700">負載平衡</text>
+  <text x="546" y="539" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24" font-weight="700">時間電價</text>
+  <path d="M356 392H446" stroke="#6FC6F8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M754 392H844" stroke="#6FC6F8" stroke-width="10" stroke-linecap="round"/>
+  <path d="M600 470V494" stroke="#6FC6F8" stroke-width="10" stroke-linecap="round"/>
+</svg>

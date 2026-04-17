@@ -1,23 +1,33 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Healthcare and Public Site Solution</title>
+  <desc id="desc">Self-service check-in kiosk, public guidance display, and hospital site workflow.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0c2c62"/>
-      <stop offset="60%" stop-color="#1660ad"/>
-      <stop offset="100%" stop-color="#76d9c3"/>
+      <stop offset="0%" stop-color="#0b2c60"/>
+      <stop offset="60%" stop-color="#1765ba"/>
+      <stop offset="100%" stop-color="#73d8c6"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="160" y="190" width="520" height="460" rx="40" fill="#ffffff" opacity="0.14"/>
-  <rect x="260" y="250" width="320" height="320" rx="28" fill="#f5fbff"/>
-  <rect x="330" y="314" width="180" height="150" rx="22" fill="#86e4ff"/>
-  <path d="M402 346h36M420 328v36" stroke="#0f4d97" stroke-width="14" stroke-linecap="round"/>
-  <g transform="translate(840 230)">
-    <rect width="540" height="320" rx="34" fill="#ffffff" opacity="0.14"/>
-    <rect x="60" y="72" width="170" height="180" rx="24" fill="#102d55"/>
-    <rect x="96" y="108" width="98" height="100" rx="18" fill="#84e4ff"/>
-    <rect x="270" y="86" width="210" height="24" rx="12" fill="#d8ebff"/>
-    <rect x="270" y="130" width="180" height="18" rx="9" fill="#d8ebff" opacity="0.74"/>
-    <rect x="270" y="162" width="150" height="18" rx="9" fill="#d8ebff" opacity="0.58"/>
+  <circle cx="1270" cy="176" r="150" fill="#b7f0ff" opacity="0.16"/>
+  <g transform="translate(130 190)">
+    <rect x="0" y="0" width="1340" height="410" rx="40" fill="#ffffff" opacity="0.12"/>
+    <rect x="90" y="74" width="260" height="300" rx="30" fill="#f5fbff" opacity="0.96"/>
+    <rect x="126" y="110" width="188" height="114" rx="18" fill="#82e8ff"/>
+    <circle cx="220" cy="148" r="24" fill="#ffffff"/>
+    <path d="M188 186h64v18h-64z" fill="#0f4d97"/>
+    <rect x="154" y="258" width="132" height="20" rx="10" fill="#0f4d97"/>
+    <g transform="translate(470 92)">
+      <rect width="320" height="260" rx="30" fill="#102949"/>
+      <rect x="34" y="34" width="252" height="126" rx="18" fill="#8be9ff"/>
+      <path d="M64 92h96M64 124h72" stroke="#0f4d97" stroke-width="16" stroke-linecap="round"/>
+      <rect x="34" y="196" width="170" height="20" rx="10" fill="#d9edff"/>
+    </g>
+    <g transform="translate(930 74)">
+      <rect width="260" height="300" rx="30" fill="#f5fbff" opacity="0.96"/>
+      <rect x="46" y="44" width="168" height="142" rx="20" fill="#7de4ff"/>
+      <path d="M78 232h106M78 266h70" stroke="#0f4d97" stroke-width="16" stroke-linecap="round"/>
+    </g>
   </g>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">HEALTHCARE &amp; PUBLIC SITE</text>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">HEALTHCARE &amp; PUBLIC SITE</text>
 </svg>

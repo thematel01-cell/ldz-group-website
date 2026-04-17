@@ -1,0 +1,51 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="60" x2="1110" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
+    </linearGradient>
+    <linearGradient id="banner" x1="126" y1="120" x2="1070" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#11326F"/>
+      <stop offset="1" stop-color="#2483DD"/>
+    </linearGradient>
+    <linearGradient id="cloud" x1="394" y1="282" x2="806" y2="508" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2F86E0"/>
+      <stop offset="1" stop-color="#0C3171"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F9FBFF"/>
+      <stop offset="1" stop-color="#EDF4FF"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <rect x="76" y="72" width="1048" height="531" rx="34" fill="white" stroke="#D5E2F5"/>
+
+  <rect x="126" y="120" width="948" height="122" rx="28" fill="url(#banner)"/>
+  <text x="182" y="177" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="700">雲端營運管理平台</text>
+  <text x="182" y="218" fill="rgba(255,255,255,0.84)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24">整合會員、交易、設備與報表的多站點雲端平台</text>
+
+  <path d="M478 506C408 506 358 461 358 403C358 352 399 312 454 312C476 312 497 318 514 329C533 284 577 254 626 254C692 254 746 301 753 362C803 364 844 403 844 450C844 509 795 554 731 554H478V506Z" fill="url(#cloud)"/>
+  <text x="471" y="408" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="56" font-weight="700">LDZ Cloud</text>
+  <text x="472" y="447" fill="rgba(255,255,255,0.84)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24">多站點管理 / 交易整合 / API 串接</text>
+
+  <rect x="156" y="330" width="174" height="92" rx="24" fill="url(#panel)" stroke="#D7E4F8"/>
+  <rect x="870" y="330" width="174" height="92" rx="24" fill="url(#panel)" stroke="#D7E4F8"/>
+  <rect x="206" y="470" width="174" height="92" rx="24" fill="url(#panel)" stroke="#D7E4F8"/>
+  <rect x="820" y="470" width="174" height="92" rx="24" fill="url(#panel)" stroke="#D7E4F8"/>
+
+  <text x="211" y="384" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">交易管理</text>
+  <text x="921" y="384" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">設備管理</text>
+  <text x="261" y="524" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">報表中心</text>
+  <text x="882" y="524" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">API 串接</text>
+
+  <path d="M330 376H396" stroke="#73C8F9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M804 376H870" stroke="#73C8F9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M380 501L437 468" stroke="#73C8F9" stroke-width="10" stroke-linecap="round"/>
+  <path d="M763 468L820 501" stroke="#73C8F9" stroke-width="10" stroke-linecap="round"/>
+
+  <circle cx="396" cy="376" r="7" fill="#73C8F9"/>
+  <circle cx="804" cy="376" r="7" fill="#73C8F9"/>
+  <circle cx="437" cy="468" r="7" fill="#73C8F9"/>
+  <circle cx="763" cy="468" r="7" fill="#73C8F9"/>
+</svg>

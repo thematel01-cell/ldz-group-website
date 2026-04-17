@@ -1,0 +1,78 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">KIOSK Self Ticketing</title>
+  <desc id="desc">Illustration of self-service ticketing kiosks with a user purchasing tickets at the center machine.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a2b5e"/>
+      <stop offset="56%" stop-color="#1463b8"/>
+      <stop offset="100%" stop-color="#73dbc5"/>
+    </linearGradient>
+    <linearGradient id="screen" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8be9ff"/>
+      <stop offset="100%" stop-color="#2f7bd1"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1305" cy="170" r="160" fill="#fff0ad" opacity="0.22"/>
+  <rect x="0" y="642" width="1600" height="258" fill="#ffffff" opacity="0.08"/>
+
+  <g transform="translate(130 180)">
+    <rect x="0" y="0" width="1340" height="410" rx="42" fill="#ffffff" opacity="0.1"/>
+
+    <g transform="translate(70 88)">
+      <rect x="0" y="0" width="220" height="236" rx="28" fill="#123154" opacity="0.96"/>
+      <rect x="34" y="28" width="152" height="108" rx="18" fill="url(#screen)"/>
+      <path d="M64 72h92" stroke="#ffffff" stroke-width="14" stroke-linecap="round"/>
+      <path d="M64 102h74" stroke="#ffffff" stroke-width="12" stroke-linecap="round" opacity="0.85"/>
+      <rect x="62" y="162" width="96" height="16" rx="8" fill="#d9ecff"/>
+      <rect x="84" y="192" width="52" height="16" rx="8" fill="#d9ecff" opacity="0.72"/>
+      <rect x="92" y="224" width="36" height="10" rx="5" fill="#66ddbe"/>
+    </g>
+
+    <g transform="translate(470 22)">
+      <rect x="0" y="0" width="360" height="350" rx="38" fill="#f4fbff" opacity="0.98"/>
+      <rect x="62" y="34" width="236" height="144" rx="24" fill="#143f7a"/>
+      <rect x="84" y="56" width="192" height="100" rx="18" fill="#8de9ff"/>
+      <rect x="104" y="80" width="68" height="44" rx="12" fill="#ffffff" opacity="0.95"/>
+      <path d="M116 102h44" stroke="#0f5db8" stroke-width="10" stroke-linecap="round"/>
+      <path d="M196 84h56" stroke="#0f5db8" stroke-width="10" stroke-linecap="round"/>
+      <path d="M196 108h42" stroke="#0f5db8" stroke-width="10" stroke-linecap="round" opacity="0.75"/>
+      <path d="M196 132h58" stroke="#0f5db8" stroke-width="10" stroke-linecap="round" opacity="0.58"/>
+      <rect x="88" y="204" width="188" height="22" rx="11" fill="#0f4c97"/>
+      <rect x="112" y="242" width="140" height="18" rx="9" fill="#0f4c97" opacity="0.74"/>
+      <rect x="118" y="292" width="124" height="24" rx="12" fill="#66ddbe"/>
+      <text x="180" y="309" text-anchor="middle" fill="#0b315c" font-size="22" font-family="Arial, Helvetica, sans-serif" font-weight="700">BUY TICKET</text>
+    </g>
+
+    <g transform="translate(1010 88)">
+      <rect x="0" y="0" width="220" height="236" rx="28" fill="#123154" opacity="0.96"/>
+      <rect x="34" y="28" width="152" height="108" rx="18" fill="url(#screen)"/>
+      <rect x="58" y="54" width="42" height="56" rx="10" fill="#ffffff" opacity="0.94"/>
+      <path d="M118 64h44M118 88h38M118 112h28" stroke="#ffffff" stroke-width="10" stroke-linecap="round" opacity="0.92"/>
+      <rect x="62" y="162" width="96" height="16" rx="8" fill="#d9ecff"/>
+      <rect x="84" y="192" width="52" height="16" rx="8" fill="#d9ecff" opacity="0.72"/>
+      <rect x="92" y="224" width="36" height="10" rx="5" fill="#66ddbe"/>
+    </g>
+
+    <g transform="translate(790 196)">
+      <ellipse cx="92" cy="176" rx="92" ry="20" fill="#08284e" opacity="0.36"/>
+      <circle cx="70" cy="38" r="34" fill="#ffd8b4"/>
+      <path d="M34 88c12-30 36-48 70-48 46 0 78 30 78 74v28h-30l-8-38-30 24-44-8z" fill="#0f2c54"/>
+      <path d="M24 136c22-30 46-46 82-46 34 0 64 16 86 48l-34 20-28-28-30 20-48-2z" fill="#ffffff" opacity="0.96"/>
+      <path d="M56 162l-18 82" stroke="#10294c" stroke-width="22" stroke-linecap="round"/>
+      <path d="M118 162l22 82" stroke="#10294c" stroke-width="22" stroke-linecap="round"/>
+      <path d="M52 160c20 8 42 8 66 0" stroke="#66ddbe" stroke-width="18" stroke-linecap="round"/>
+      <path d="M108 126l46 -16" stroke="#ffd8b4" stroke-width="12" stroke-linecap="round"/>
+      <circle cx="160" cy="108" r="11" fill="#66d8ff"/>
+    </g>
+
+    <g transform="translate(660 110) rotate(-8)">
+      <rect x="0" y="0" width="90" height="56" rx="12" fill="#fff6cb"/>
+      <circle cx="20" cy="28" r="6" fill="#0f4c97"/>
+      <path d="M34 18h34M34 30h22M34 42h30" stroke="#0f4c97" stroke-width="6" stroke-linecap="round"/>
+    </g>
+  </g>
+
+  <text x="110" y="122" fill="#ffffff" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">KIOSK</text>
+  <text x="110" y="176" fill="#dcecff" font-size="28" font-family="Arial, Helvetica, sans-serif">self ticketing terminal / user purchase interaction</text>
+</svg>

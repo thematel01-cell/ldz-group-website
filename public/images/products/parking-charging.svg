@@ -1,23 +1,38 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Parking and EV Charging</title>
+  <desc id="desc">Parking lane, EV charger, and management dashboard.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0a2b62"/>
-      <stop offset="55%" stop-color="#135bb3"/>
-      <stop offset="100%" stop-color="#58cdb9"/>
+      <stop offset="58%" stop-color="#145fb2"/>
+      <stop offset="100%" stop-color="#62d7be"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="140" y="220" width="520" height="370" rx="36" fill="#ffffff" opacity="0.14"/>
-  <rect x="220" y="290" width="110" height="215" rx="22" fill="#102e56"/>
-  <rect x="246" y="324" width="58" height="76" rx="14" fill="#83e2ff"/>
-  <path d="M330 336h40c30 0 54 24 54 54v24" fill="none" stroke="#dff5ff" stroke-width="14" stroke-linecap="round"/>
-  <path d="M424 414h24" fill="none" stroke="#dff5ff" stroke-width="14" stroke-linecap="round"/>
-  <g transform="translate(760 260)">
-    <path d="M108 190h250l42-74h96l52 74h52v52H60v-52h48z" fill="#eef8ff"/>
-    <circle cx="166" cy="242" r="42" fill="#10284a"/>
-    <circle cx="456" cy="242" r="42" fill="#10284a"/>
-    <circle cx="166" cy="242" r="16" fill="#8fdcff"/>
-    <circle cx="456" cy="242" r="16" fill="#8fdcff"/>
+  <rect x="0" y="642" width="1600" height="258" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(130 180)">
+    <rect x="0" y="0" width="520" height="400" rx="40" fill="#ffffff" opacity="0.12"/>
+    <rect x="60" y="74" width="142" height="252" rx="22" fill="#0e305c"/>
+    <rect x="90" y="108" width="82" height="86" rx="14" fill="#7fe8ff"/>
+    <circle cx="132" cy="266" r="20" fill="#76d8c8"/>
+    <path d="M204 132h58c40 0 72 32 72 72v26" fill="none" stroke="#d8f2ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M334 230l28 0" stroke="#d8f2ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M80 270h220l30-74h84l34 74h40v46H40v-46h40z" fill="#eef8ff"/>
+    <circle cx="96" cy="332" r="30" fill="#11284a"/><circle cx="96" cy="332" r="12" fill="#94defc"/>
+    <circle cx="324" cy="332" r="30" fill="#11284a"/><circle cx="324" cy="332" r="12" fill="#94defc"/>
   </g>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">PARKING &amp; EV</text>
+  <g transform="translate(780 180)">
+    <rect x="0" y="0" width="660" height="400" rx="40" fill="#ffffff" opacity="0.12"/>
+    <rect x="64" y="74" width="146" height="250" rx="24" fill="#0d294f"/>
+    <rect x="92" y="104" width="90" height="116" rx="16" fill="#8ce8ff"/>
+    <path d="M210 138h62c44 0 80 36 80 80v26" fill="none" stroke="#dcf3ff" stroke-width="16" stroke-linecap="round"/>
+    <path d="M352 244l30 0" stroke="#dcf3ff" stroke-width="16" stroke-linecap="round"/>
+    <g transform="translate(308 146)">
+      <path d="M72 0c82 0 148 50 148 116s-66 116-148 116S0 182 0 116 66 0 72 0z" fill="#eef8ff"/>
+      <path d="M50 90l42-44 34 22 54-24 20 34-90 102z" fill="#0f61bc"/>
+      <circle cx="50" cy="204" r="32" fill="#11284a"/><circle cx="50" cy="204" r="13" fill="#94defc"/>
+      <circle cx="168" cy="204" r="32" fill="#11284a"/><circle cx="168" cy="204" r="13" fill="#94defc"/>
+    </g>
+  </g>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">PARKING &amp; EV CHARGING</text>
 </svg>

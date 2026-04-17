@@ -1,24 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Self Service and Smart Healthcare</title>
+  <desc id="desc">Healthcare kiosk, digital signage, and check-in workflow display.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#0b2958"/>
-      <stop offset="58%" stop-color="#1760ac"/>
-      <stop offset="100%" stop-color="#76dac4"/>
+      <stop offset="0%" stop-color="#0b2c60"/>
+      <stop offset="60%" stop-color="#1765ba"/>
+      <stop offset="100%" stop-color="#73d8c6"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="160" y="170" width="500" height="480" rx="40" fill="#ffffff" opacity="0.14"/>
-  <rect x="280" y="220" width="240" height="360" rx="30" fill="#f5fbff"/>
-  <rect x="330" y="270" width="140" height="180" rx="20" fill="#8ae7ff"/>
-  <rect x="350" y="492" width="100" height="16" rx="8" fill="#cedffd"/>
-  <g transform="translate(860 220)">
-    <rect width="480" height="320" rx="34" fill="#ffffff" opacity="0.14"/>
-    <circle cx="110" cy="110" r="46" fill="#7fdbff"/>
-    <path d="M98 110h24M110 98v24" stroke="#0e4e98" stroke-width="12" stroke-linecap="round"/>
-    <rect x="196" y="84" width="220" height="24" rx="12" fill="#d8ebff"/>
-    <rect x="196" y="126" width="180" height="18" rx="9" fill="#d8ebff" opacity="0.74"/>
-    <rect x="196" y="160" width="150" height="18" rx="9" fill="#d8ebff" opacity="0.58"/>
-    <rect x="56" y="218" width="360" height="42" rx="21" fill="#eff8ff"/>
+  <circle cx="1260" cy="186" r="160" fill="#b9f0ff" opacity="0.16"/>
+  <g transform="translate(140 190)">
+    <rect x="0" y="0" width="380" height="410" rx="40" fill="#ffffff" opacity="0.12"/>
+    <rect x="76" y="70" width="220" height="290" rx="30" fill="#f5fbff" opacity="0.96"/>
+    <rect x="112" y="104" width="148" height="96" rx="18" fill="#7de3ff"/>
+    <circle cx="186" cy="138" r="24" fill="#ffffff"/>
+    <path d="M156 176h60v18h-60z" fill="#0f4d97"/>
+    <rect x="130" y="236" width="112" height="20" rx="10" fill="#0f4d97"/>
+    <rect x="154" y="272" width="64" height="18" rx="9" fill="#0f4d97" opacity="0.72"/>
   </g>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">SELF-SERVICE HEALTHCARE</text>
+  <g transform="translate(610 210)">
+    <rect x="0" y="0" width="310" height="350" rx="36" fill="#ffffff" opacity="0.12"/>
+    <rect x="48" y="40" width="214" height="140" rx="24" fill="#0f2b50"/>
+    <rect x="70" y="62" width="170" height="96" rx="18" fill="#8ae8ff"/>
+    <path d="M104 110h102M104 138h76" stroke="#0f4d97" stroke-width="14" stroke-linecap="round"/>
+    <rect x="80" y="218" width="150" height="22" rx="11" fill="#d9edff"/>
+    <rect x="102" y="256" width="106" height="18" rx="9" fill="#d9edff" opacity="0.72"/>
+  </g>
+  <g transform="translate(1020 206)">
+    <rect x="0" y="0" width="290" height="360" rx="36" fill="#ffffff" opacity="0.12"/>
+    <rect x="54" y="38" width="182" height="252" rx="26" fill="#123154"/>
+    <rect x="82" y="66" width="126" height="120" rx="18" fill="#8be9ff"/>
+    <path d="M102 220h86M102 254h64" stroke="#d9ecff" stroke-width="14" stroke-linecap="round"/>
+  </g>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">SELF SERVICE &amp; HEALTHCARE</text>
 </svg>

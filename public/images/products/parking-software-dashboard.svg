@@ -1,0 +1,124 @@
+<svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="156" y1="84" x2="1444" y2="816" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#EAF2FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="230" y1="160" x2="1368" y2="740" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F4F8FF"/>
+    </linearGradient>
+    <linearGradient id="hero" x1="250" y1="188" x2="1350" y2="188" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0A2B62"/>
+      <stop offset="1" stop-color="#1A77D4"/>
+    </linearGradient>
+    <linearGradient id="badgeGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#74D8A4"/>
+      <stop offset="1" stop-color="#4CBF83"/>
+    </linearGradient>
+    <linearGradient id="badgeBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#63B6FF"/>
+      <stop offset="1" stop-color="#327BE8"/>
+    </linearGradient>
+    <filter id="shadow" x="130" y="58" width="1340" height="784" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+      <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+      <feOffset dy="24"/>
+      <feGaussianBlur stdDeviation="30"/>
+      <feColorMatrix type="matrix" values="0 0 0 0 0.0392157 0 0 0 0 0.168627 0 0 0 0 0.384314 0 0 0 0.12 0"/>
+      <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_1_1"/>
+      <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_1_1" result="shape"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="900" rx="44" fill="url(#bg)"/>
+  <g filter="url(#shadow)">
+    <rect x="190" y="118" width="1220" height="664" rx="36" fill="url(#panel)"/>
+    <rect x="250" y="160" width="1100" height="56" rx="20" fill="url(#hero)"/>
+    <text x="286" y="196" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="700">LDZ 營運管理平台示意</text>
+    <circle cx="1262" cy="188" r="8" fill="#7FD4FF"/>
+    <circle cx="1292" cy="188" r="8" fill="#78E0B2"/>
+    <circle cx="1322" cy="188" r="8" fill="#FFD95A"/>
+
+    <rect x="250" y="248" width="1100" height="86" rx="24" fill="#F2F7FF"/>
+    <rect x="278" y="272" width="244" height="38" rx="19" fill="#E2EEFF"/>
+    <text x="306" y="297" fill="#0A2B62" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18" font-weight="700">設備即時狀態監控</text>
+    <rect x="1028" y="266" width="134" height="50" rx="18" fill="#0A2B62" opacity="0.06"/>
+    <text x="1058" y="297" fill="#0A2B62" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="17" font-weight="700">營運中</text>
+    <rect x="1176" y="266" width="146" height="50" rx="18" fill="#0A2B62" opacity="0.06"/>
+    <text x="1206" y="297" fill="#0A2B62" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="17" font-weight="700">資料同步</text>
+
+    <g opacity="0.92">
+      <rect x="250" y="366" width="1100" height="58" rx="18" fill="#FFFFFF"/>
+      <rect x="250" y="432" width="1100" height="92" rx="22" fill="#FFFFFF"/>
+      <rect x="250" y="532" width="1100" height="92" rx="22" fill="#FFFFFF"/>
+      <rect x="250" y="632" width="1100" height="92" rx="22" fill="#FFFFFF"/>
+    </g>
+
+    <g fill="#0A2B62" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="17" font-weight="700">
+      <text x="282" y="403">設備編號</text>
+      <text x="406" y="403">MAC</text>
+      <text x="544" y="403">連線狀態</text>
+      <text x="694" y="403">充電樁狀態</text>
+      <text x="882" y="403">最新開始時間</text>
+      <text x="1094" y="403">車牌</text>
+      <text x="1178" y="403">目前照片</text>
+      <text x="1302" y="403">更新時間</text>
+    </g>
+
+    <g font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="18" fill="#23416F">
+      <text x="282" y="485">EV030586</text>
+      <text x="406" y="485">0060E0ABF457</text>
+      <text x="544" y="485">連線</text>
+      <text x="694" y="485">待機</text>
+      <text x="882" y="485">2026-04-15 18:20:45</text>
+      <text x="1094" y="485">AYJ-7192</text>
+      <text x="1302" y="485">2026-04-17 21:43:39</text>
+
+      <text x="282" y="585">EV020289</text>
+      <text x="406" y="585">0060E0AC31E8</text>
+      <text x="544" y="585">連線</text>
+      <text x="694" y="585">待機</text>
+      <text x="882" y="585">2026-04-15 14:17:36</text>
+      <text x="1094" y="585">AWD-0122</text>
+      <text x="1302" y="585">2026-04-17 21:42:44</text>
+
+      <text x="282" y="685">EV030382</text>
+      <text x="406" y="685">0060E0ABF4B9</text>
+      <text x="544" y="685">連線</text>
+      <text x="694" y="685">待機</text>
+      <text x="882" y="685">2026-04-17 17:00:28</text>
+      <text x="1094" y="685">AUZ-2087</text>
+      <text x="1302" y="685">2026-04-17 21:42:36</text>
+    </g>
+
+    <rect x="640" y="460" width="92" height="34" rx="17" fill="url(#badgeGreen)"/>
+    <text x="672" y="482" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="16" font-weight="700">待機</text>
+    <rect x="640" y="560" width="92" height="34" rx="17" fill="url(#badgeBlue)"/>
+    <text x="672" y="582" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="16" font-weight="700">充電</text>
+    <rect x="640" y="660" width="92" height="34" rx="17" fill="url(#badgeGreen)"/>
+    <text x="672" y="682" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="16" font-weight="700">待機</text>
+
+    <g>
+      <rect x="1178" y="446" width="88" height="64" rx="16" fill="#E5EEF9"/>
+      <rect x="1184" y="452" width="76" height="52" rx="12" fill="#8A2430"/>
+      <rect x="1203" y="472" width="38" height="20" rx="5" fill="#F0F4F8"/>
+      <rect x="1178" y="546" width="88" height="64" rx="16" fill="#E5EEF9"/>
+      <rect x="1184" y="552" width="76" height="52" rx="12" fill="#55585E"/>
+      <rect x="1203" y="572" width="38" height="20" rx="5" fill="#F0F4F8"/>
+      <rect x="1178" y="646" width="88" height="64" rx="16" fill="#E5EEF9"/>
+      <rect x="1184" y="652" width="76" height="52" rx="12" fill="#4A5157"/>
+      <rect x="1203" y="672" width="38" height="20" rx="5" fill="#F0F4F8"/>
+    </g>
+
+    <g opacity="0.45" stroke="#C9D9F0">
+      <line x1="382" y1="446" x2="382" y2="724"/>
+      <line x1="530" y1="446" x2="530" y2="724"/>
+      <line x1="676" y1="446" x2="676" y2="724"/>
+      <line x1="856" y1="446" x2="856" y2="724"/>
+      <line x1="1070" y1="446" x2="1070" y2="724"/>
+      <line x1="1164" y1="446" x2="1164" y2="724"/>
+      <line x1="1288" y1="446" x2="1288" y2="724"/>
+    </g>
+  </g>
+</svg>

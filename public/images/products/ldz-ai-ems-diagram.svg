@@ -1,0 +1,140 @@
+<svg width="1400" height="920" viewBox="0 0 1400 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="pageBg" x1="140" y1="80" x2="1240" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E5F0FF"/>
+    </linearGradient>
+    <linearGradient id="frameFill" x1="700" y1="84" x2="700" y2="836" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#F7FBFF"/>
+    </linearGradient>
+    <linearGradient id="panelFill" x1="700" y1="250" x2="700" y2="730" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F1F8FF"/>
+      <stop offset="1" stop-color="#DCEBFF"/>
+    </linearGradient>
+    <linearGradient id="cloudFill" x1="700" y1="290" x2="700" y2="620" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#2368C8"/>
+      <stop offset="1" stop-color="#133E92"/>
+    </linearGradient>
+    <linearGradient id="chipBlue" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#2A64BF"/>
+      <stop offset="1" stop-color="#173E8B"/>
+    </linearGradient>
+    <linearGradient id="chipGreen" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#66CFB1"/>
+      <stop offset="1" stop-color="#36A988"/>
+    </linearGradient>
+    <linearGradient id="chipCyan" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#70BFF2"/>
+      <stop offset="1" stop-color="#488FDA"/>
+    </linearGradient>
+    <linearGradient id="bottomChip" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#2A65C1"/>
+      <stop offset="1" stop-color="#164394"/>
+    </linearGradient>
+    <filter id="frameShadow" x="24" y="36" width="1352" height="848" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="24" stdDeviation="28" flood-color="#0B3D91" flood-opacity="0.12"/>
+    </filter>
+    <filter id="softShadow" x="0" y="0" width="1400" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="10" stdDeviation="18" flood-color="#2F6DCC" flood-opacity="0.10"/>
+    </filter>
+    <style>
+      .brand { font: 700 64px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #1A4F9D; }
+      .hero { font: 700 58px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #123B7B; }
+      .summary { font: 500 20px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #35587F; }
+      .chipTitle { font: 700 24px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #FFFFFF; }
+      .chipBody { font: 500 16px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #294B72; }
+      .cloudTitle { font: 700 72px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #FFFFFF; }
+      .cloudSub { font: 700 38px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #F2F7FF; }
+      .cloudBody { font: 500 20px 'Noto Sans TC', 'Microsoft JhengHei', sans-serif; fill: #D7E8FF; }
+    </style>
+  </defs>
+
+  <rect width="1400" height="920" rx="44" fill="url(#pageBg)"/>
+
+  <g filter="url(#frameShadow)">
+    <rect x="56" y="56" width="1288" height="808" rx="54" fill="url(#frameFill)"/>
+  </g>
+
+  <text x="122" y="146" class="brand">LDZ</text>
+  <text x="430" y="152" class="hero">智慧能源整合架構</text>
+
+  <g opacity="0.9">
+    <circle cx="1176" cy="116" r="10" fill="#7FD9F7"/>
+    <circle cx="1208" cy="116" r="10" fill="#7FD9B8"/>
+    <circle cx="1240" cy="116" r="10" fill="#FFDB1F"/>
+  </g>
+
+  <g filter="url(#softShadow)">
+    <rect x="104" y="272" width="1192" height="492" rx="42" fill="url(#panelFill)"/>
+  </g>
+
+  <g opacity="0.32">
+    <ellipse cx="700" cy="748" rx="250" ry="26" fill="#BFD7F7"/>
+  </g>
+
+  <path d="M700 300C772 300 815 340 832 392C906 387 968 438 968 510C968 591 907 648 826 648H568C472 648 404 586 404 503C404 438 444 387 505 372C522 325 573 300 644 300C667 300 686 304 700 300Z" fill="url(#cloudFill)"/>
+  <path d="M700 326C760 326 798 358 812 400C879 396 930 442 930 501C930 563 883 608 817 608H586C509 608 456 558 456 496C456 449 485 414 531 402C546 359 586 334 641 334C664 334 684 334 700 326Z" fill="#FFFFFF" opacity="0.07"/>
+
+  <text x="700" y="460" text-anchor="middle" class="cloudTitle">LDZ AI EMS</text>
+  <text x="700" y="512" text-anchor="middle" class="cloudSub">Energy Management System</text>
+  <text x="700" y="552" text-anchor="middle" class="cloudBody">資訊收集、能源調度、設備控制、AI 預測分析</text>
+
+  <g filter="url(#softShadow)">
+    <rect x="226" y="236" width="188" height="86" rx="28" fill="url(#chipBlue)"/>
+    <rect x="986" y="236" width="188" height="86" rx="28" fill="url(#chipBlue)"/>
+    <rect x="144" y="428" width="190" height="86" rx="28" fill="url(#chipCyan)"/>
+    <rect x="1066" y="428" width="190" height="86" rx="28" fill="url(#chipCyan)"/>
+    <rect x="172" y="612" width="174" height="86" rx="28" fill="url(#chipGreen)"/>
+    <rect x="1054" y="612" width="174" height="86" rx="28" fill="url(#chipGreen)"/>
+    <rect x="420" y="706" width="304" height="92" rx="30" fill="url(#bottomChip)"/>
+    <rect x="740" y="706" width="304" height="92" rx="30" fill="url(#bottomChip)"/>
+  </g>
+
+  <text x="320" y="288" text-anchor="middle" class="chipTitle">PCS</text>
+  <text x="320" y="342" text-anchor="middle" class="chipBody">電力轉換與併網控制</text>
+
+  <text x="1080" y="288" text-anchor="middle" class="chipTitle">BMS</text>
+  <text x="1080" y="342" text-anchor="middle" class="chipBody">電池管理與安全監測</text>
+
+  <text x="239" y="480" text-anchor="middle" class="chipTitle">太陽能</text>
+  <text x="239" y="534" text-anchor="middle" class="chipBody">發電管理與用電監控</text>
+
+  <text x="1161" y="480" text-anchor="middle" class="chipTitle">資訊收集</text>
+  <text x="1161" y="534" text-anchor="middle" class="chipBody">電表、設備、感測器整合</text>
+
+  <text x="259" y="664" text-anchor="middle" class="chipTitle">節能</text>
+  <text x="259" y="718" text-anchor="middle" class="chipBody">空調、照明、用電最佳化</text>
+
+  <text x="1141" y="664" text-anchor="middle" class="chipTitle">AI 分析</text>
+  <text x="1141" y="718" text-anchor="middle" class="chipBody">預測、告警、調度智慧化</text>
+
+  <text x="572" y="760" text-anchor="middle" class="chipTitle">儲能 / 大數據</text>
+  <text x="572" y="816" text-anchor="middle" class="chipBody">儲能整合、資訊沉澱、數據分析</text>
+
+  <text x="892" y="760" text-anchor="middle" class="chipTitle">儲能 / 大數據</text>
+  <text x="892" y="816" text-anchor="middle" class="chipBody">儲能整合、資訊沉澱、數據分析</text>
+
+  <g stroke="#0C4DA2" stroke-width="5" fill="none" stroke-linecap="round" stroke-linejoin="round" opacity="0.92">
+    <rect x="258" y="182" width="26" height="46" rx="4"/>
+    <rect x="290" y="170" width="52" height="58" rx="6"/>
+    <rect x="348" y="190" width="20" height="38" rx="4"/>
+    <rect x="1040" y="172" width="58" height="18" rx="4"/>
+    <rect x="1040" y="198" width="58" height="18" rx="4"/>
+    <circle cx="1122" cy="207" r="18"/>
+    <path d="M1122 207V196"/>
+    <path d="M1122 207L1131 213"/>
+    <rect x="136" y="378" width="40" height="52" rx="6"/>
+    <path d="M176 396H198L212 408"/>
+    <circle cx="204" cy="424" r="10"/>
+    <rect x="1078" y="376" width="58" height="42" rx="6"/>
+    <path d="M1078 398H1136"/>
+    <path d="M1092 420V438H1122V420"/>
+    <rect x="182" y="570" width="52" height="34" rx="4"/>
+    <path d="M194 626H246"/>
+    <circle cx="1082" cy="586" r="6" fill="#0C4DA2"/>
+    <circle cx="1112" cy="606" r="6" fill="#0C4DA2"/>
+    <circle cx="1142" cy="580" r="6" fill="#0C4DA2"/>
+    <path d="M1082 586L1112 606L1142 580"/>
+  </g>
+</svg>

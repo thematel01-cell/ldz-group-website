@@ -1,16 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Factory Energy Management Solution</title>
+  <desc id="desc">Factory floor, energy dashboard, alerts, and plant equipment coordination.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#082651"/>
-      <stop offset="60%" stop-color="#1357a4"/>
-      <stop offset="100%" stop-color="#6fd5c1"/>
+      <stop offset="0%" stop-color="#0a2858"/>
+      <stop offset="56%" stop-color="#135ead"/>
+      <stop offset="100%" stop-color="#6ad6bf"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="150" y="300" width="1300" height="320" rx="34" fill="#eff8ff" opacity="0.16"/>
-  <path d="M200 560V380l170 86v-86l180 86v-86l192 106v74z" fill="#eff8ff"/>
-  <rect x="1080" y="210" width="190" height="280" rx="26" fill="#0f2d56"/>
-  <rect x="1114" y="250" width="122" height="90" rx="18" fill="#7edfff"/>
-  <path d="M1175 368l-16 34h22l-10 22 38-40h-26l12-16z" fill="#ffe382"/>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">FACTORY ENERGY</text>
+  <rect x="0" y="648" width="1600" height="252" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(130 200)">
+    <rect x="0" y="0" width="1320" height="390" rx="40" fill="#ffffff" opacity="0.12"/>
+    <path d="M84 310h210l56-80 50 48 72-120 92 86v66h102v60H84z" fill="#eff8ff"/>
+    <rect x="740" y="70" width="300" height="220" rx="28" fill="#102949"/>
+    <rect x="774" y="102" width="232" height="104" rx="18" fill="#89e8ff"/>
+    <path d="M804 236h166M804 268h130" stroke="#d9edff" stroke-width="16" stroke-linecap="round"/>
+    <g transform="translate(1080 110)">
+      <rect width="200" height="180" rx="24" fill="#eff8ff"/>
+      <rect x="28" y="30" width="144" height="24" rx="12" fill="#123f7a"/>
+      <rect x="28" y="76" width="102" height="18" rx="9" fill="#69d8ff"/>
+      <rect x="28" y="110" width="132" height="18" rx="9" fill="#69d8ff" opacity="0.75"/>
+      <rect x="28" y="144" width="76" height="18" rx="9" fill="#ffde7b"/>
+    </g>
+  </g>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">FACTORY ENERGY MANAGEMENT</text>
 </svg>

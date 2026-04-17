@@ -1,0 +1,69 @@
+<svg width="900" height="700" viewBox="0 0 900 700" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="450" y1="0" x2="450" y2="700" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#173F88"/>
+      <stop offset="0.58" stop-color="#1F4F9F"/>
+      <stop offset="1" stop-color="#2663BB"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="450" y1="120" x2="450" y2="580" gradientUnits="userSpaceOnUse">
+      <stop stop-color="rgba(255,255,255,0.12)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.08)"/>
+    </linearGradient>
+    <linearGradient id="blueCard" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#76C9F7"/>
+      <stop offset="1" stop-color="#5B9EE7"/>
+    </linearGradient>
+    <linearGradient id="greenCard" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#78DD9D"/>
+      <stop offset="1" stop-color="#54BB80"/>
+    </linearGradient>
+    <linearGradient id="purpleCard" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#C8BBFF"/>
+      <stop offset="1" stop-color="#978FEC"/>
+    </linearGradient>
+    <radialGradient id="core" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(450 350) rotate(90) scale(120)">
+      <stop stop-color="rgba(255,255,255,0.18)"/>
+      <stop offset="0.58" stop-color="rgba(255,255,255,0.08)"/>
+      <stop offset="1" stop-color="rgba(255,255,255,0.04)"/>
+    </radialGradient>
+    <filter id="shadow" x="0" y="0" width="900" height="700" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="20" stdDeviation="30" flood-color="#0C326E" flood-opacity="0.18"/>
+    </filter>
+  </defs>
+
+  <g filter="url(#shadow)">
+    <rect x="18" y="18" width="864" height="664" rx="46" fill="url(#bg)"/>
+  </g>
+
+  <text x="74" y="92" fill="white" font-size="20" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="600" opacity="0.88">LDZ Energy Overview</text>
+  <text x="74" y="144" fill="white" font-size="58" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="700">三分法整合架構</text>
+
+  <circle cx="780" cy="92" r="10" fill="#7FD9F7"/>
+  <circle cx="812" cy="92" r="10" fill="#8BE5A5"/>
+  <circle cx="844" cy="92" r="10" fill="#FFD84F"/>
+
+  <rect x="58" y="176" width="784" height="456" rx="36" fill="url(#panel)" fill-opacity="0.9"/>
+  <rect x="88" y="208" width="724" height="394" rx="28" stroke="rgba(255,255,255,0.16)"/>
+
+  <path d="M449.5 240L510 305.5L597 329.5L534 394L519 481L449.5 444.5L380 481L365 394L302 329.5L389 305.5L449.5 240Z" stroke="rgba(255,255,255,0.35)" stroke-width="3"/>
+
+  <rect x="136" y="300" width="140" height="204" rx="28" fill="url(#blueCard)"/>
+  <text x="206" y="378" fill="white" font-size="50" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="700" text-anchor="middle">節能</text>
+  <text x="206" y="426" fill="rgba(255,255,255,0.9)" font-size="26" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">分析</text>
+  <text x="206" y="462" fill="rgba(255,255,255,0.9)" font-size="26" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">收集</text>
+  <text x="206" y="498" fill="rgba(255,255,255,0.9)" font-size="26" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">管理</text>
+
+  <rect x="624" y="300" width="140" height="204" rx="28" fill="url(#greenCard)"/>
+  <text x="694" y="378" fill="white" font-size="50" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="700" text-anchor="middle">綠電</text>
+  <text x="694" y="426" fill="rgba(255,255,255,0.9)" font-size="26" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">太陽</text>
+  <text x="694" y="462" fill="rgba(255,255,255,0.9)" font-size="26" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">風力</text>
+  <text x="694" y="498" fill="rgba(255,255,255,0.9)" font-size="26" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">水利</text>
+
+  <circle cx="450" cy="390" r="96" fill="url(#core)" stroke="rgba(255,255,255,0.22)" stroke-width="3"/>
+  <text x="450" y="382" fill="white" font-size="64" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="700" text-anchor="middle">LDZ</text>
+  <text x="450" y="428" fill="rgba(255,255,255,0.86)" font-size="28" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">Energy OS</text>
+
+  <rect x="302" y="488" width="296" height="118" rx="28" fill="url(#purpleCard)"/>
+  <text x="450" y="550" fill="white" font-size="54" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="700" text-anchor="middle">儲能</text>
+  <text x="450" y="592" fill="rgba(255,255,255,0.88)" font-size="24" font-family="'Noto Sans TC','Microsoft JhengHei',sans-serif" font-weight="500" text-anchor="middle">削峰、備援、調度</text>
+</svg>

@@ -45,12 +45,7 @@ export default function HomePage() {
         <div className="container-shell">
           <SectionTitle
             eyebrow={locale === "zh" ? "精選入口" : "Featured Access"}
-            title={locale === "zh" ? "精選產品 / 解決方案入口" : "Featured Products / Solution Access"}
-            description={
-              locale === "zh"
-                ? "將主要服務整理成可延伸的卡片模組，後續可以直接改資料或擴增 CMS / API。"
-                : "Key services are organized as reusable cards, making future CMS or API expansion straightforward."
-            }
+            title={locale === "zh" ? "解決方案" : "Solutions"}
           />
           <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
             {featuredEntries.map((item, index) => (
@@ -83,11 +78,8 @@ export default function HomePage() {
                   </div>
                 ))}
               </div>
-              <Link
-                href={futureAiSection.href}
-                className="btn-light"
-              >
-                {locale === "zh" ? "查看未來 AI 佈局" : "Explore Future AI"}
+              <Link href={futureAiSection.href} className="btn-light">
+                {locale === "zh" ? "探索 Future AI" : "Explore Future AI"}
               </Link>
             </div>
           </div>

@@ -1,23 +1,37 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Security Vision</title>
+  <desc id="desc">AI camera, analytics display, and alert module.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0%" stop-color="#081d43"/>
-      <stop offset="58%" stop-color="#0d519f"/>
-      <stop offset="100%" stop-color="#69d0b9"/>
+      <stop offset="0%" stop-color="#071d43"/>
+      <stop offset="55%" stop-color="#0c4fa1"/>
+      <stop offset="100%" stop-color="#60ceb4"/>
     </linearGradient>
   </defs>
   <rect width="1600" height="900" fill="url(#g)"/>
-  <rect x="130" y="180" width="610" height="420" rx="40" fill="#ffffff" opacity="0.12"/>
-  <rect x="265" y="320" width="280" height="110" rx="30" fill="#f6fbff"/>
-  <path d="M545 375h180l64-58v116l-64-58H545z" fill="#dcefff"/>
-  <circle cx="390" cy="375" r="64" fill="#0f3967"/>
-  <circle cx="390" cy="375" r="38" fill="#7fe1ff"/>
-  <g transform="translate(910 200)">
-    <rect width="420" height="260" rx="28" fill="#11284a"/>
-    <rect x="38" y="40" width="138" height="84" rx="18" fill="#78dbff"/>
-    <rect x="208" y="48" width="170" height="20" rx="10" fill="#d5ebff"/>
-    <rect x="208" y="86" width="138" height="16" rx="8" fill="#d5ebff" opacity="0.75"/>
-    <rect x="208" y="118" width="98" height="16" rx="8" fill="#d5ebff" opacity="0.58"/>
+  <circle cx="1270" cy="190" r="200" fill="#8ce8bf" opacity="0.18"/>
+  <g transform="translate(130 190)">
+    <rect x="0" y="0" width="650" height="400" rx="40" fill="#ffffff" opacity="0.1"/>
+    <rect x="130" y="136" width="300" height="120" rx="34" fill="#f7fbff"/>
+    <path d="M430 196h170l66-58v120l-66-62H430z" fill="#dcefff"/>
+    <circle cx="286" cy="196" r="62" fill="#103765"/>
+    <circle cx="286" cy="196" r="40" fill="#75deff"/>
+    <circle cx="286" cy="196" r="18" fill="#0d4c97"/>
   </g>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">AI SECURITY VISION</text>
+  <g transform="translate(900 170)">
+    <rect x="0" y="0" width="500" height="430" rx="36" fill="#ffffff" opacity="0.12"/>
+    <rect x="54" y="56" width="388" height="228" rx="24" fill="#102949"/>
+    <rect x="84" y="86" width="142" height="90" rx="18" fill="#63d7ff"/>
+    <rect x="244" y="86" width="144" height="22" rx="11" fill="#cee6ff"/>
+    <rect x="244" y="126" width="118" height="18" rx="9" fill="#cee6ff" opacity="0.74"/>
+    <g transform="translate(94 320)">
+      <rect width="118" height="74" rx="18" fill="#ffffff" opacity="0.92"/>
+      <text x="59" y="47" text-anchor="middle" fill="#0e4e9f" font-size="36" font-family="Arial" font-weight="700">AI</text>
+    </g>
+    <g transform="translate(240 320)">
+      <rect width="150" height="74" rx="18" fill="#7ed7c7"/>
+      <text x="75" y="47" text-anchor="middle" fill="#0d315f" font-size="28" font-family="Arial" font-weight="700">ALERT</text>
+    </g>
+  </g>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">SMART SECURITY VISION</text>
 </svg>

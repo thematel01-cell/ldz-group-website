@@ -1,0 +1,32 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E6F0FF"/>
+    </linearGradient>
+    <linearGradient id="banner" x1="126" y1="120" x2="1070" y2="248" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#10306E"/>
+      <stop offset="1" stop-color="#2A86E0"/>
+    </linearGradient>
+    <linearGradient id="charger" x1="190" y1="286" x2="404" y2="492" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#163A78"/>
+      <stop offset="1" stop-color="#2A83DA"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <rect x="76" y="72" width="1048" height="531" rx="34" fill="#FFF" stroke="#D5E2F5"/>
+  <rect x="126" y="120" width="948" height="122" rx="28" fill="url(#banner)"/>
+  <text x="182" y="177" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="700">AC / DC 充電設備</text>
+  <text x="182" y="218" fill="rgba(255,255,255,0.82)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24">支援社區、商辦與停車場導入的 EV 充電設備</text>
+  <rect x="184" y="292" width="194" height="202" rx="28" fill="url(#charger)"/>
+  <rect x="220" y="326" width="122" height="58" rx="16" fill="#E8F2FF"/>
+  <rect x="242" y="348" width="78" height="12" rx="6" fill="#58C1FF"/>
+  <rect x="234" y="414" width="94" height="48" rx="15" fill="#0F2E68"/>
+  <path d="M273 426H291L280 448H295" stroke="#FFE36C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M378 340C442 340 468 368 482 404C499 448 532 478 598 478H744" stroke="#56C999" stroke-width="12" stroke-linecap="round"/>
+  <rect x="744" y="350" width="258" height="138" rx="26" fill="#F4F8FF" stroke="#D7E4F8"/>
+  <text x="784" y="396" fill="#12306A" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="34" font-weight="700">遠端監控</text>
+  <text x="784" y="440" fill="#5A7196" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24">啟停控制 / 分群管理 / 狀態回傳</text>
+  <circle cx="1038" cy="419" r="28" fill="#D8F8E9"/>
+  <path d="M1024 419L1034 429L1052 408" stroke="#40B17B" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

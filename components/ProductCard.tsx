@@ -37,9 +37,6 @@ export function ProductCard({
           className="object-cover transition duration-500 group-hover:scale-[1.03]"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-[rgba(9,25,50,0.72)] via-[rgba(9,25,50,0.24)] to-transparent" />
-        <span className="absolute left-5 top-5 inline-flex rounded-full border border-white/20 bg-white/12 px-3 py-1 text-xs font-semibold tracking-[0.18em] text-white backdrop-blur">
-          {tag}
-        </span>
       </div>
       <div className="flex flex-1 flex-col p-6">
         <h3 className="text-xl font-semibold text-[var(--foreground)]">{t(title, locale)}</h3>

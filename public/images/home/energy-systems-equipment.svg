@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Energy Systems and Equipment</title>
+  <desc id="desc">Illustration focused on solar power and energy storage systems with solar panels, battery cabinets, and an EMS display.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0a2a5d"/>
+      <stop offset="55%" stop-color="#115ead"/>
+      <stop offset="100%" stop-color="#6cd6c1"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9eeaff"/>
+      <stop offset="100%" stop-color="#185fae"/>
+    </linearGradient>
+    <linearGradient id="battery" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#12376f"/>
+      <stop offset="100%" stop-color="#0a2447"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="900" fill="url(#bg)"/>
+  <circle cx="1295" cy="170" r="170" fill="#ffe8a0" opacity="0.32"/>
+  <circle cx="1210" cy="180" r="92" fill="#fff5c8" opacity="0.52"/>
+  <rect x="0" y="640" width="1600" height="260" fill="#ffffff" opacity="0.1"/>
+
+  <g transform="translate(140 210)">
+    <rect x="0" y="0" width="1320" height="400" rx="42" fill="#ffffff" opacity="0.1"/>
+
+    <g transform="translate(38 40)">
+      <rect x="0" y="0" width="250" height="300" rx="28" fill="#f4fbff" opacity="0.96"/>
+      <rect x="34" y="34" width="182" height="112" rx="18" fill="#123f7a"/>
+      <rect x="54" y="58" width="60" height="18" rx="9" fill="#67d6ff"/>
+      <rect x="54" y="92" width="118" height="14" rx="7" fill="#d6ecff" opacity="0.92"/>
+      <rect x="54" y="118" width="84" height="14" rx="7" fill="#d6ecff" opacity="0.7"/>
+      <rect x="54" y="184" width="142" height="84" rx="18" fill="#1a75d2"/>
+      <path d="M115 198l-18 32h22l-12 23 38-38h-24l14-17z" fill="#fff6b4"/>
+      <rect x="70" y="284" width="110" height="12" rx="6" fill="#b7d6ee"/>
+    </g>
+
+    <g transform="translate(360 38)">
+      <rect x="0" y="0" width="520" height="310" rx="32" fill="#ffffff" opacity="0.12"/>
+      <g transform="translate(48 54)">
+        <rect width="150" height="210" rx="16" fill="url(#panel)" transform="skewX(-12)"/>
+        <g stroke="#d5f3ff" opacity="0.58">
+          <path d="M20 26h104M10 62h108M0 98h110M-10 134h110M-20 170h110"/>
+          <path d="M25 10v190M65 6v198M105 0v204"/>
+        </g>
+      </g>
+      <g transform="translate(240 74)">
+        <rect width="150" height="210" rx="16" fill="url(#panel)" transform="skewX(-12)"/>
+        <g stroke="#d5f3ff" opacity="0.58">
+          <path d="M20 26h104M10 62h108M0 98h110M-10 134h110M-20 170h110"/>
+          <path d="M25 10v190M65 6v198M105 0v204"/>
+        </g>
+      </g>
+      <path d="M50 294h360" stroke="#d8edff" stroke-width="12" stroke-linecap="round" opacity="0.8"/>
+      <path d="M120 294l-36 48M300 294l0 48M390 294l34 48" stroke="#d8edff" stroke-width="10" stroke-linecap="round" opacity="0.55"/>
+    </g>
+
+    <g transform="translate(956 20)">
+      <rect x="0" y="0" width="244" height="342" rx="30" fill="url(#battery)" opacity="0.98"/>
+      <rect x="30" y="30" width="184" height="72" rx="18" fill="#123f79"/>
+      <rect x="30" y="126" width="184" height="24" rx="12" fill="#58d0f2"/>
+      <rect x="30" y="166" width="120" height="18" rx="9" fill="#d3e8ff"/>
+      <rect x="30" y="198" width="138" height="18" rx="9" fill="#d3e8ff" opacity="0.74"/>
+      <rect x="30" y="230" width="94" height="18" rx="9" fill="#d3e8ff" opacity="0.56"/>
+      <rect x="152" y="282" width="42" height="22" rx="11" fill="#66ddbe"/>
+      <circle cx="192" cy="293" r="18" fill="#66ddbe"/>
+      <path d="M190 282v10l8 6" fill="none" stroke="#0a345f" stroke-width="7" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+
+    <g transform="translate(1238 54)">
+      <rect x="0" y="0" width="76" height="212" rx="18" fill="#0f2a52"/>
+      <rect x="16" y="18" width="44" height="84" rx="10" fill="#87e7ff"/>
+      <rect x="16" y="118" width="44" height="22" rx="11" fill="#cfe8ff"/>
+      <rect x="16" y="152" width="44" height="22" rx="11" fill="#cfe8ff" opacity="0.76"/>
+      <rect x="16" y="186" width="44" height="12" rx="6" fill="#67ddbe"/>
+    </g>
+  </g>
+
+  <g stroke="#b9dfff" stroke-width="5" opacity="0.3" fill="none">
+    <path d="M1075 390c74-8 116-20 156-54"/>
+    <path d="M868 390c76-16 126-18 196 0"/>
+    <path d="M650 430c86-18 156-24 220-18"/>
+  </g>
+
+  <text x="110" y="122" fill="#ffffff" font-size="54" font-family="Arial, Helvetica, sans-serif" font-weight="700" letter-spacing="4">SMART ENERGY</text>
+  <text x="110" y="176" fill="#dcecff" font-size="28" font-family="Arial, Helvetica, sans-serif">solar panels / battery storage / EMS systems</text>
+</svg>

@@ -32,12 +32,6 @@ export function ContactCTA() {
               >
                 {t(contactCta.primary.label, locale)}
               </Link>
-              <Link
-                href={contactCta.secondary.href}
-                className="btn-light"
-              >
-                {t(contactCta.secondary.label, locale)}
-              </Link>
             </div>
           </div>
         </div>

@@ -11,8 +11,8 @@ export default function ProductsPage() {
         eyebrow={{ zh: "產品與服務", en: "Products & Services" }}
         title={{ zh: "產品與服務", en: "Products & Services" }}
         description={{
-          zh: "以分類式頁面整理立達興各項產品與服務模組，方便後續持續擴充內容。",
-          en: "Organized by category so LDZ product and service modules can be expanded easily over time."
+          zh: "將各項產品與服務整理成可點擊的模組卡片，點入後即可查看對應的一頁式介紹內容。",
+          en: "Browse each product and service as a clickable module card, then open its dedicated one-page overview."
         }}
       />
       <section className="section-space">
@@ -24,6 +24,7 @@ export default function ProductsPage() {
                 description={category.description}
                 image={category.image}
                 bullets={category.items}
+                href={category.href}
               />
             </div>
           ))}

@@ -1,24 +1,49 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900">
-  <rect width="1600" height="900" fill="#103a78"/>
-  <rect width="1600" height="900" fill="url(#g)"/>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" role="img" aria-labelledby="title desc">
+  <title id="title">Smart Energy Systems</title>
+  <desc id="desc">Solar panels, energy storage cabinet, and EMS monitoring interface.</desc>
   <defs>
     <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
       <stop offset="0%" stop-color="#0b2a5b"/>
       <stop offset="60%" stop-color="#1666c0"/>
       <stop offset="100%" stop-color="#6fd6c3"/>
     </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#9feaff"/>
+      <stop offset="100%" stop-color="#1c66b6"/>
+    </linearGradient>
   </defs>
-  <circle cx="1260" cy="200" r="170" fill="#ffe26b" opacity="0.35"/>
-  <rect x="120" y="530" width="1360" height="230" rx="34" fill="#ffffff" opacity="0.12"/>
-  <rect x="200" y="250" width="190" height="270" rx="24" fill="#eff8ff"/>
-  <rect x="248" y="300" width="94" height="96" rx="16" fill="#0f4d97"/>
-  <path d="M294 318l-18 42h24l-12 24 48-48h-28l12-18z" fill="#ffe684"/>
-  <g transform="translate(500 250)">
-    <rect width="300" height="200" rx="22" fill="#0f4d97" transform="skewX(-12)"/>
-    <g stroke="#d9f3ff" opacity="0.5">
-      <path d="M36 30h200M26 68h210M16 106h210M6 144h210M-4 182h210"/>
-      <path d="M50 12v176M120 6v184M190 0v190"/>
+  <rect width="1600" height="900" fill="url(#g)"/>
+  <circle cx="1260" cy="190" r="165" fill="#ffe26b" opacity="0.28"/>
+  <rect x="0" y="650" width="1600" height="250" fill="#ffffff" opacity="0.08"/>
+  <g transform="translate(150 210)">
+    <rect x="0" y="0" width="250" height="320" rx="28" fill="#f3fbff" opacity="0.96"/>
+    <rect x="34" y="32" width="182" height="112" rx="18" fill="#123f7a"/>
+    <rect x="54" y="58" width="58" height="18" rx="9" fill="#69d8ff"/>
+    <rect x="54" y="92" width="112" height="14" rx="7" fill="#d7ecff" opacity="0.9"/>
+    <rect x="54" y="184" width="132" height="82" rx="18" fill="#1b76d4"/>
+    <path d="M112 198l-18 32h22l-12 20 36-34h-22l12-18z" fill="#fff5b4"/>
+  </g>
+  <g transform="translate(470 240)">
+    <rect width="150" height="220" rx="18" fill="url(#panel)" transform="skewX(-12)"/>
+    <g stroke="#d6f2ff" opacity="0.58">
+      <path d="M20 24h100M12 60h104M4 96h106M-4 132h106M-12 168h106"/>
+      <path d="M26 10v194M66 4v202M106 0v206"/>
     </g>
   </g>
-  <text x="120" y="120" fill="#ffffff" font-size="64" font-family="Arial" font-weight="700">SMART ENERGY</text>
+  <g transform="translate(700 260)">
+    <rect width="150" height="220" rx="18" fill="url(#panel)" transform="skewX(-12)"/>
+    <g stroke="#d6f2ff" opacity="0.58">
+      <path d="M20 24h100M12 60h104M4 96h106M-4 132h106M-12 168h106"/>
+      <path d="M26 10v194M66 4v202M106 0v206"/>
+    </g>
+  </g>
+  <g transform="translate(980 210)">
+    <rect width="240" height="340" rx="30" fill="#0e2a53" opacity="0.96"/>
+    <rect x="30" y="30" width="180" height="74" rx="16" fill="#123f7a"/>
+    <rect x="30" y="128" width="180" height="24" rx="12" fill="#59d1f2"/>
+    <rect x="30" y="168" width="118" height="18" rx="9" fill="#d2e8ff"/>
+    <rect x="30" y="200" width="136" height="18" rx="9" fill="#d2e8ff" opacity="0.75"/>
+    <rect x="152" y="274" width="44" height="24" rx="12" fill="#67ddbe"/>
+  </g>
+  <text x="110" y="120" fill="#ffffff" font-size="62" font-family="Arial" font-weight="700">SMART ENERGY</text>
 </svg>

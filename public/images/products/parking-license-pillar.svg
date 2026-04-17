@@ -1,0 +1,30 @@
+<svg width="1200" height="675" viewBox="0 0 1200 675" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="120" y1="60" x2="1080" y2="615" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="card" x1="214" y1="128" x2="986" y2="547" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#0C3172"/>
+      <stop offset="1" stop-color="#1E81DC"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" rx="36" fill="url(#bg)"/>
+  <rect x="76" y="72" width="1048" height="531" rx="34" fill="#FFF" stroke="#D5E2F5"/>
+  <rect x="128" y="122" width="944" height="122" rx="28" fill="url(#card)"/>
+  <text x="184" y="177" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="700">智慧車牌辨識柱</text>
+  <text x="184" y="218" fill="rgba(255,255,255,0.82)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="24">車輛辨識、進出控管與授權整合前端設備</text>
+  <rect x="184" y="302" width="148" height="170" rx="26" fill="#102C60"/>
+  <rect x="214" y="329" width="88" height="58" rx="12" fill="#EAF3FF"/>
+  <rect x="228" y="344" width="58" height="7" rx="3.5" fill="#62C4FF"/>
+  <rect x="228" y="360" width="39" height="7" rx="3.5" fill="#A8B6D0"/>
+  <rect x="214" y="401" width="88" height="44" rx="12" fill="#215FB5"/>
+  <path d="M250 415H267L253 437H269" stroke="#FFE36C" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="476" y="302" width="384" height="170" rx="32" fill="#F4F8FF" stroke="#D5E2F5"/>
+  <rect x="522" y="334" width="236" height="116" rx="22" fill="#DAE7FB"/>
+  <rect x="552" y="362" width="176" height="50" rx="12" fill="#FFF"/>
+  <text x="574" y="395" fill="#0C3172" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">AYJ-7192</text>
+  <path d="M426 386C426 338.056 464.056 300 512 300H824C871.944 300 910 338.056 910 386V390" stroke="#6ABAF2" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="936" cy="388" r="32" fill="#D9F8EA"/>
+  <path d="M920 388L932 400L953 377" stroke="#42B37E" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

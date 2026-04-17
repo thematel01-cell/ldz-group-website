@@ -25,22 +25,22 @@ export type FeatureEntry = {
 export const homeHero = {
   eyebrow: {
     zh: "智慧能源與場域整合基礎建設服務供應商",
-    en: "Smart Infrastructure Integrator"
+    en: "Smart Energy and Site Integration Infrastructure Service Provider"
   },
   title: {
     zh: "立達興科技 LDZ Group",
     en: "LDZ Group"
   },
   subtitle: {
-    zh: "智慧能源・智慧停車與充電・AI 視覺・自動化整合",
-    en: "Smart Energy • Parking & EV Charging • AI Vision • Automation Integration"
+    zh: "智慧能源、停車充電、安防影像與自動化系統",
+    en: "Smart Energy, Parking & EV Charging, AI Vision, and Automation Systems"
   },
   description: {
-    zh: "提供各類環境與場域更安全、更高效、更智慧的 AI 智慧解決方案，整合能源管理、充電樁系統、儲能設備、智慧停車、影像監控、自助服務設備與雲端平台應用。",
-    en: "From energy management, EV charging, and smart parking to AI security and cloud platforms, we deliver site-scale smart infrastructure solutions."
+    zh: "從智慧能源系統、停車充電、安防影像到自動化設備與雲端平台，立達興提供場域級的智慧基礎建設整合方案。",
+    en: "From energy systems and EV charging to AI security, automation equipment, and cloud platforms, LDZ delivers site-scale smart infrastructure solutions."
   },
   primaryCta: {
-    label: { zh: "探索產品", en: "Explore Products" },
+    label: { zh: "瀏覽產品", en: "Explore Products" },
     href: "/products"
   },
   secondaryCta: {
@@ -49,7 +49,7 @@ export const homeHero = {
   },
   stats: [
     { value: "2013", label: { zh: "成立年份", en: "Established" } },
-    { value: "B2B", label: { zh: "企業服務", en: "Enterprise Focus" } },
+    { value: "B2B", label: { zh: "企業導向", en: "Enterprise Focus" } },
     { value: "AIoT", label: { zh: "整合核心", en: "Integration Core" } },
     { value: "1000+", label: { zh: "應用場域", en: "Application Sites" } }
   ] satisfies HeroStat[],
@@ -59,41 +59,41 @@ export const homeHero = {
       en: "LDZ Vision"
     },
     title: {
-      zh: "LDZ 願景",
-      en: "LDZ Vision"
+      zh: "以整合技術驅動智慧場域升級",
+      en: "Driving Smart Site Upgrades Through Integrated Technology"
     },
     items: [
       {
         key: "L",
         heading: {
-          zh: "L｜智慧能源領航",
-          en: "L · Leadership in Smart Energy"
+          zh: "智慧能源整合",
+          en: "Leadership in Smart Energy"
         },
         description: {
-          zh: "以智慧能源系統推動場域升級與節能轉型。",
-          en: "Driving innovation in intelligent energy systems"
+          zh: "透過能源系統、EMS 與儲能整合能力，協助客戶提升效率與韌性。",
+          en: "Expanding efficiency and resilience through integrated energy systems, EMS, and storage."
         }
       },
       {
         key: "D",
         heading: {
-          zh: "D｜數位驅動製造",
-          en: "D · Digital-Driven Manufacturing"
+          zh: "數位驅動製造",
+          en: "Digital-Driven Manufacturing"
         },
         description: {
-          zh: "以自動化與數位整合強化產業運作效率。",
-          en: "Empowering industry through automation and digital integration"
+          zh: "整合設備、自動化流程與資料平台，加速工業場域的數位升級。",
+          en: "Accelerating industrial transformation through equipment, automation workflows, and connected data platforms."
         }
       },
       {
         key: "Z",
         heading: {
-          zh: "Z｜零碳永續轉型",
-          en: "Z · Zero-Carbon Transformation"
+          zh: "永續低碳轉型",
+          en: "Zero-Carbon Transformation"
         },
         description: {
-          zh: "協助企業朝向永續與淨零未來持續前進。",
-          en: "Advancing toward a sustainable and net-zero future"
+          zh: "透過智慧用能與系統整合，協助企業朝向可持續營運前進。",
+          en: "Helping organizations move toward sustainable operations through smart energy usage and integrated systems."
         }
       }
     ]
@@ -103,12 +103,12 @@ export const homeHero = {
 export const coreCapabilities: CapabilityCard[] = [
   {
     slug: "energy",
-    title: { zh: "智慧能源", en: "Smart Energy" },
+    title: { zh: "智慧能源系統與設備", en: "Smart Energy Systems & Equipment" },
     description: {
-      zh: "整合 EMS、儲能、太陽能與微電網系統，提升能源效率與使用可視化。",
+      zh: "整合 EMS、儲能、太陽能與微電網系統，提升能源效率與供使用可視化。",
       en: "Integrating EMS, storage, solar, and microgrids to improve efficiency and energy visibility."
     },
-    image: "/images/home/energy.svg",
+    image: "/images/home/energy-systems-equipment.svg",
     tag: "Energy",
     href: "/products#smart-energy"
   },
@@ -116,55 +116,88 @@ export const coreCapabilities: CapabilityCard[] = [
     slug: "parking-charging",
     title: { zh: "智慧停車與充電", en: "Smart Parking & EV Charging" },
     description: {
-      zh: "整合車牌辨識、停車管理、充電設備與雲端營運平台，打造一致的場域服務流程。",
+      zh: "整合車牌辨識、停車管理、充電樁設備與雲端營運平台，打造一致的場站服務流程。",
       en: "Unified integration of LPR, parking management, charging infrastructure, and cloud operations."
     },
-    image: "/images/home/parking-charging.svg",
+    image: "/images/home/parking-ev-operations.svg",
     tag: "Parking & EV",
-    href: "/products#parking-charging"
+    href: "/products#smart-energy"
   },
   {
     slug: "security",
     title: { zh: "智慧安防影像", en: "Smart Security Vision" },
     description: {
       zh: "結合影像設備、AI 分析、周界防護與事件告警，提升場域安全與管理效率。",
-      en: "Built around LDZ-developed cameras with AI analytics, perimeter protection, people flow analysis, and event alerts."
+      en: "Combining imaging devices, AI analytics, perimeter protection, and event alerts to enhance site safety and management."
     },
-    image: "/images/home/security-camera.svg",
+    image: "/images/home/security-vision-ops.svg",
     tag: "AI Vision",
     href: "/products#security-vision"
   },
   {
-    slug: "automation-cloud",
+    slug: "automation",
     title: { zh: "自動化設備與機器人開發", en: "Automation & Robotics Development" },
     description: {
-      zh: "整合開發自動化設備與控制系統、機器人、Kiosk、自助服務、無人化。",
-      en: "Integrated development of automation equipment, control systems, robotics, kiosks, self-service, and unmanned solutions."
+      zh: "整合開發自動化設備、控制系統、機器人、運動控制系統。",
+      en: "Integrated development of automation equipment, control systems, robotics, and motion control systems."
     },
-    image: "/images/home/automation-cloud.svg",
+    image: "/images/home/automation-motion-control.svg",
     tag: "Automation",
     href: "/products#automation-cloud"
+  },
+  {
+    slug: "kiosk",
+    title: { zh: "KIOSK 無人化", en: "KIOSK Unmanned Solutions" },
+    description: {
+      zh: "開發符合應用環境的無人化服務、自助售票機、自助申辦機、自助導覽機。",
+      en: "Developing unmanned services for real application environments, including self-service ticketing, application, and guidance kiosks."
+    },
+    image: "/images/home/kiosk-unmanned-solutions.svg",
+    tag: "KIOSK",
+    href: "/about"
+  },
+  {
+    slug: "oem-odm-product",
+    title: { zh: "OEM / ODM 產品開發", en: "OEM / ODM Product Development" },
+    description: {
+      zh: "支援產品規劃、設計整合、打樣與量產導入。",
+      en: "Supporting product planning, design integration, prototyping, and production rollout."
+    },
+    image: "/images/home/oem-odm-product-development.svg",
+    tag: "OEM / ODM",
+    href: "/about"
+  },
+  {
+    slug: "aiot",
+    title: { zh: "AIoT 雲端軟硬體整合", en: "AIoT Cloud Integration" },
+    description: {
+      zh: "軟硬體整合與可視化平台開發與 IT / OT / Cloud 串接能力。",
+      en: "Combining hardware, software, visualization platforms, and IT / OT / Cloud connectivity into one integrated stack."
+    },
+    image: "/images/home/aiot-cloud-platform.svg",
+    tag: "AIoT",
+    href: "/future-ai"
   }
 ];
 
 export const aboutSummary = {
   title: { zh: "關於立達興", en: "About LDZ" },
   description: {
-    zh: "立達興科技股份有限公司成立於 2013 年，為專注於能源系統、自動化設備、AIoT 物聯網、雲端平台與系統整合開發的科技服務企業。公司具備 OEM / ODM、軟硬體整合、電器承裝、可視化平台開發與專案落地能力，並設有台北辦事處與新竹湖口製造工廠，持續以技術整合與客製化能力，協助客戶打造更高效率、更安全、更智慧的應用場域。\n\n立達興的服務範圍涵蓋能源服務工程、太陽能系統、儲能系統、充電樁系統、能源管理系統（EMS）、機器人設備、無人化服務系統、AIoT 系統、雲端平台與智慧場域整合。公司從早期自動化設備與機器人技術出發，逐步擴展到能源與數位平台領域，形成兼具硬體製造、系統串接、平台開發與維運管理的一站式整合能力。\n\n多年來，立達興持續累積跨產業實務經驗，應用場域涵蓋工廠、商辦、學校、醫療院所、停車場、公共建設與社區住宅等，並在能源管理、充電營運、自助設備、智慧監控與儲能整合等領域建立扎實基礎。公司亦逐步發展自主整合方案，朝向「設備 + 系統 + 平台 + 維運」的完整服務模式前進。",
-    en: "Founded in 2013, LDZ Group Co., Ltd. is a technology service company focused on energy systems, automation equipment, AIoT, cloud platforms, and integrated system development. The company offers OEM / ODM services, hardware-software integration, electrical contracting, visualization platform development, and end-to-end project delivery capabilities. With a Taipei office and a manufacturing facility in Hukou, Hsinchu, LDZ continues to help clients build safer, smarter, and more efficient application environments through technical integration and customization.\n\nLDZ's service scope covers energy engineering services, solar power systems, energy storage systems, EV charging systems, energy management systems (EMS), robotic equipment, unmanned service systems, AIoT systems, cloud platforms, and smart-site integration. Starting from automation equipment and robotics technologies, the company has gradually expanded into the energy and digital platform sectors, forming a one-stop integration capability that combines hardware manufacturing, system connectivity, platform development, and operations management.\n\nOver the years, LDZ has built extensive cross-industry experience across factories, office buildings, schools, medical institutions, parking facilities, public infrastructure, and residential communities. The company has established strong foundations in energy management, charging operations, self-service equipment, smart surveillance, and energy storage integration, while continuing to develop proprietary integrated solutions toward a complete service model of equipment + systems + platforms + operations."
+    zh: "立達興科技股份有限公司成立於 2013 年，專注於智慧能源、自動化設備、AIoT、雲端平台與整合型系統開發。公司具備 OEM / ODM、軟硬體整合、電器承裝、可視化平台開發與專案落地能力，協助企業與各類場域打造更高效率、更安全、更智慧的應用環境。\n\n立達興的服務範圍涵蓋能源服務工程、太陽能系統、儲能系統、充電樁系統、能源管理系統、機器人設備、無人化服務系統、AIoT 系統與智慧場域整合。從需求評估、方案規劃、設計製造、系統整合到交付維運，提供一站式整合服務。",
+    en: "Founded in 2013, LDZ Group Co., Ltd. focuses on smart energy, automation equipment, AIoT, cloud platforms, and integrated system development. The company provides OEM / ODM services, hardware-software integration, electrical contracting, visualization platform development, and end-to-end project delivery.\n\nLDZ covers energy engineering, solar and storage systems, EV charging, energy management, robotics, unmanned service systems, AIoT platforms, and smart-site integration. From requirements and planning to design, delivery, and operations, LDZ offers one-stop integrated services."
   },
   highlights: [
     {
-      zh: "工程整合與跨系統協同能力",
+      zh: "工程整合與跨系統協作能力",
       en: "Engineering integration and cross-system coordination"
     },
     {
-      zh: "能源、停車、充電、AI 視覺與平台服務整合",
+      zh: "能源、停車、充電、AI 影像與雲端平台整合",
       en: "Integrated energy, parking, EV charging, AI vision, and cloud platforms"
     },
     {
-      zh: "可延伸未來 AI 場域應用的技術基礎",
-      en: "Scalable foundation for future AI site applications"
+      zh: "具備可持續擴充的智慧場域導入基礎",
+      en: "A scalable foundation for future smart-site applications"
     }
   ]
 };
@@ -173,18 +206,18 @@ export const featuredEntries: FeatureEntry[] = [
   {
     title: { zh: "智慧能源系統", en: "Smart Energy Systems" },
     description: {
-      zh: "整合能源監測、需量優化、儲能與再生能源調度，提升整體能源管理效能。",
-      en: "Energy monitoring, demand optimization, storage, and renewable dispatch integration."
+      zh: "整合監測、儲能、再生能源調度與 EMS 應用，提升能源效率與管理品質。",
+      en: "Integrating monitoring, storage, renewable dispatch, and EMS applications for better energy performance."
     },
     href: "/products#smart-energy",
     image: "/images/products/smart-energy.svg",
     tag: "Products"
   },
   {
-    title: { zh: "EV 充電與停車管理", en: "EV Charging & Parking Management" },
+    title: { zh: "停車與充電營運", en: "EV Charging & Parking Management" },
     description: {
-      zh: "整合停車動線、計費、車牌辨識與充電營運，提供一致的場域管理體驗。",
-      en: "Integrated parking flow, billing, license plate recognition, and charging operations."
+      zh: "串接停車動線、計費、車牌辨識與充電營運，打造完整場站流程。",
+      en: "Connecting parking flow, billing, license plate recognition, and charging operations into one service loop."
     },
     href: "/solutions#parking-ev",
     image: "/images/solutions/parking-ev.svg",
@@ -193,8 +226,8 @@ export const featuredEntries: FeatureEntry[] = [
   {
     title: { zh: "AI 安防影像", en: "AI Security Vision" },
     description: {
-      zh: "結合自有影像設備與 AI 視覺演算法，提供主動式安全管理與事件辨識能力。",
-      en: "LDZ-developed cameras paired with AI vision algorithms for proactive safety management."
+      zh: "以影像設備結合 AI 分析，支援主動式安全管理、告警與事件追蹤。",
+      en: "Combining imaging devices with AI analytics for proactive safety management, alerts, and event tracking."
     },
     href: "/products#security-vision",
     image: "/images/products/ai-security.svg",
@@ -203,8 +236,8 @@ export const featuredEntries: FeatureEntry[] = [
   {
     title: { zh: "自動化與自助服務", en: "Automation & Self-Service" },
     description: {
-      zh: "整合工業設備、Kiosk、自助服務流程與後台資料串接，支援多元場域應用。",
-      en: "Industrial equipment integration, kiosks, self-service workflows, and backend data connectivity."
+      zh: "涵蓋自動化設備、Kiosk、自助流程與後台資料整合，支援多元場域應用。",
+      en: "Supporting equipment automation, kiosks, self-service workflows, and backend connectivity for diverse use cases."
     },
     href: "/products#self-service-medical",
     image: "/images/products/automation-service.svg",
@@ -214,25 +247,25 @@ export const featuredEntries: FeatureEntry[] = [
 
 export const futureAiSection = {
   title: {
-    zh: "智慧場域的未來 AI",
-    en: "Future AI for Smart Infrastructure"
+    zh: "Future AI 智慧營運",
+    en: "Future AI for Smart Operations"
   },
   description: {
-    zh: "立達興正從系統整合商持續進化為平台導向的技術服務公司，將 AI、能源與場域數據整合為可規模化的智慧營運能力。",
-    en: "LDZ is evolving from a system integrator into a platform-oriented technology company combining AI, energy, and site data."
+    zh: "立達興正從系統整合持續擴展到平台導向服務，結合 AI、能源與現場資料，打造可持續演進的智慧營運能力。",
+    en: "LDZ is evolving from system integration toward platform-oriented services by combining AI, energy, and site data into scalable smart operations."
   },
   items: [
     {
-      zh: "AI Energy OS：能源資料治理、告警與優化應用",
-      en: "AI Energy OS: energy data governance, alerts, and optimization"
+      zh: "AI Energy OS：能源資料治理、告警與優化",
+      en: "AI Energy OS: governance, alerts, and optimization for energy data"
     },
     {
-      zh: "智慧停車 Agent：整合停車、充電與場域營運協作",
+      zh: "智慧停車 Agent：串接停車、充電與場域營運",
       en: "Smart parking agent: coordination across parking, charging, and site operations"
     },
     {
-      zh: "AI 維運應用：支援事件通知、巡檢與多據點管理",
-      en: "AI operations: event notifications, inspections, and multi-site management"
+      zh: "AI 維運協作：支援巡檢、通知與多場域管理",
+      en: "AI operations: support for inspections, notifications, and multi-site management"
     }
   ],
   href: "/future-ai"
@@ -248,7 +281,7 @@ export const technologyMapSection = {
     en: "LDZ Group Technology Map"
   },
   description: {
-    zh: "以 AI Energy OS 為核心，串聯智慧能源、自動化、AI 視覺、IoT 平台與智慧基礎設施，形成可持續擴展的場域技術藍圖。",
+    zh: "以 AI Energy OS 為核心，串接智慧能源、自動化、AI 視覺、IoT 平台與智慧基礎建設，形成可擴充的技術布局。",
     en: "Centered on AI Energy OS, LDZ connects smart energy, automation, AI vision, IoT platforms, and smart infrastructure into a scalable technology map."
   },
   image: "/images/home/technology-map.png",
@@ -257,12 +290,12 @@ export const technologyMapSection = {
     en: "LDZ Group Technology Map"
   },
   replaceHint: {
-    zh: "未來只要替換 /public/images/home/technology-map.png，或修改 data/home.ts 中的圖片路徑，即可更新本區內容。",
-    en: "To update this section later, simply replace /public/images/home/technology-map.png or change the image path in data/home.ts."
+    zh: "後續若要更新這張技術地圖，只需要替換 `/public/images/home/technology-map.png`，或在 `data/home.ts` 修改圖片路徑。",
+    en: "To update this technology map later, replace `/public/images/home/technology-map.png` or change the image path in `data/home.ts`."
   },
   slogan: {
-    zh: "賦能智慧能源、自動化、AI 與永續發展",
-    en: "Empowering Smart Energy, Automation, AI, and Sustainability"
+    zh: "串接智慧能源、自動化、AI 與永續",
+    en: "Connecting Smart Energy, Automation, AI, and Sustainability"
   },
   coreTitle: {
     zh: "核心平台",
@@ -281,14 +314,14 @@ export const technologyMapSection = {
       items: [
         { zh: "電池系統", en: "Battery System" },
         { zh: "電網儲能", en: "Grid Storage" },
-        { zh: "水力發電", en: "Hydro Power" }
+        { zh: "備援應用", en: "Backup Applications" }
       ]
     },
     {
       title: { zh: "太陽能", en: "Solar Energy" },
       items: [
-        { zh: "鈣鈦礦太陽能", en: "Perovskite Solar" },
-        { zh: "太陽光電", en: "Solar PV" }
+        { zh: "太陽能發電", en: "Solar PV" },
+        { zh: "再生能源整合", en: "Renewable Integration" }
       ]
     },
     {
@@ -307,7 +340,7 @@ export const technologyMapSection = {
       ]
     },
     {
-      title: { zh: "智慧基礎設施", en: "Smart Infrastructure" },
+      title: { zh: "智慧基礎建設", en: "Smart Infrastructure" },
       items: [
         { zh: "智慧建築", en: "Smart Building" },
         { zh: "HVAC / EMS", en: "HVAC / EMS" },
@@ -344,11 +377,11 @@ export const technologyMapSection = {
     { zh: "效率", en: "Efficiency" },
     { zh: "永續", en: "Sustainability" },
     { zh: "數位轉型", en: "Digital Transformation" },
-    { zh: "零碳", en: "Zero Carbon" }
+    { zh: "低碳", en: "Low Carbon" }
   ],
   visionLine: {
-    zh: "智慧能源領航｜數位驅動製造｜零碳未來",
-    en: "Leadership in Smart Energy | Digital-Driven Manufacturing | Zero-Carbon Future"
+    zh: "智慧能源領導力 | 數位驅動製造 | 永續低碳未來",
+    en: "Leadership in Smart Energy | Digital-Driven Manufacturing | A Low-Carbon Future"
   }
 };
 
@@ -358,11 +391,11 @@ export const contactCta = {
     en: "Plan your next smart infrastructure project with LDZ"
   },
   description: {
-    zh: "歡迎洽談專案合作、索取產品資訊，或預約技術顧問諮詢。",
+    zh: "歡迎洽談專案合作、索取產品資料，或安排技術顧問諮詢。",
     en: "Discuss project collaboration, request product information, or schedule a technical consultation."
   },
   primary: {
-    label: { zh: "聯絡業務團隊", en: "Contact Sales" },
+    label: { zh: "聯絡業務", en: "Contact Sales" },
     href: "/contact"
   },
   secondary: {
