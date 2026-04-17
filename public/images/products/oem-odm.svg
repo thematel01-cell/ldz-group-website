@@ -1,0 +1,52 @@
+<svg width="1200" height="900" viewBox="0 0 1200 900" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="90" y1="80" x2="1080" y2="820" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#143A78"/>
+      <stop offset="0.62" stop-color="#1D5FB7"/>
+      <stop offset="1" stop-color="#5DBFC2"/>
+    </linearGradient>
+    <linearGradient id="glass" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7FBFF" stop-opacity="0.95"/>
+      <stop offset="1" stop-color="#D8E8FF" stop-opacity="0.7"/>
+    </linearGradient>
+    <linearGradient id="device" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#1C386F"/>
+      <stop offset="1" stop-color="#14294E"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="1200" height="900" rx="42" fill="url(#bg)"/>
+  <circle cx="1012" cy="132" r="102" fill="#A4C2B1" fill-opacity="0.4"/>
+  <text x="72" y="88" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="42" font-weight="700">OEM / ODM</text>
+  <text x="72" y="122" fill="rgba(255,255,255,0.72)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="20">Product Development</text>
+
+  <rect x="78" y="170" width="232" height="206" rx="28" fill="url(#glass)"/>
+  <rect x="108" y="202" width="172" height="108" rx="18" fill="#2758A8"/>
+  <rect x="130" y="226" width="128" height="12" rx="6" fill="#A6DAFF"/>
+  <rect x="130" y="250" width="88" height="12" rx="6" fill="#D8E4F6"/>
+  <rect x="130" y="278" width="94" height="48" rx="14" fill="#F3F8FF"/>
+  <path d="M157 301L176 320L204 286" stroke="#3CA6D9" stroke-width="10" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="374" y="176" width="238" height="188" rx="30" fill="url(#device)"/>
+  <rect x="414" y="214" width="78" height="62" rx="14" fill="#264E8F"/>
+  <rect x="506" y="214" width="68" height="22" rx="11" fill="#6AD2FF"/>
+  <rect x="506" y="250" width="52" height="18" rx="9" fill="#8EA8CC"/>
+  <path d="M416 320H570" stroke="#4AB7E7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M452 184V140" stroke="#77CCFF" stroke-width="6" stroke-linecap="round"/>
+  <path d="M522 184V154" stroke="#77CCFF" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="680" y="168" width="290" height="218" rx="30" fill="url(#glass)"/>
+  <rect x="726" y="208" width="198" height="140" rx="22" fill="#315A9B"/>
+  <path d="M760 246H890" stroke="#7FD6FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M760 278H890" stroke="#7FD6FF" stroke-width="8" stroke-linecap="round"/>
+  <path d="M770 322L822 270L872 320" stroke="#A6EFBF" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M822 240V336" stroke="#A6EFBF" stroke-width="6" stroke-linecap="round"/>
+
+  <rect x="1000" y="196" width="72" height="188" rx="22" fill="url(#device)"/>
+  <rect x="1016" y="226" width="40" height="56" rx="10" fill="#2B5FAC"/>
+  <rect x="1016" y="300" width="40" height="12" rx="6" fill="#88D8FF"/>
+  <rect x="1016" y="324" width="40" height="12" rx="6" fill="#8EA8CC"/>
+  <rect x="1016" y="348" width="26" height="12" rx="6" fill="#70D0A3"/>
+
+  <rect y="508" width="1200" height="392" fill="rgba(8,22,52,0.18)"/>
+</svg>

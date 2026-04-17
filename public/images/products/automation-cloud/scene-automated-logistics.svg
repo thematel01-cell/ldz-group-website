@@ -1,0 +1,26 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg3" x1="90" y1="60" x2="1110" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="panel3" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123472"/>
+      <stop offset="1" stop-color="#2D84DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg3)"/>
+  <rect x="78" y="72" width="1044" height="576" rx="30" fill="white" stroke="#D5E2F5"/>
+  <rect x="124" y="124" width="952" height="110" rx="26" fill="url(#panel3)"/>
+  <text x="174" y="188" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">自動搬運與無人化流程</text>
+  <rect x="220" y="476" width="760" height="28" rx="14" fill="#D9E7FA"/>
+  <rect x="276" y="392" width="174" height="82" rx="24" fill="#1B4C93"/>
+  <circle cx="324" cy="492" r="24" fill="#25344F"/>
+  <circle cx="404" cy="492" r="24" fill="#25344F"/>
+  <rect x="552" y="356" width="184" height="118" rx="26" fill="#2D84DE"/>
+  <rect x="580" y="384" width="128" height="22" rx="11" fill="#EAF3FF"/>
+  <rect x="804" y="404" width="98" height="70" rx="20" fill="#1B4C93"/>
+  <path d="M450 434H552" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M736 434H804" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <text x="384" y="612" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">搬運設備 / 流程協同 / 無人化運作</text>
+</svg>

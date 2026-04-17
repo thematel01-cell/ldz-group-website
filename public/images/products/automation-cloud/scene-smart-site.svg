@@ -1,0 +1,30 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg6" x1="90" y1="60" x2="1110" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="panel6" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123472"/>
+      <stop offset="1" stop-color="#2D84DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg6)"/>
+  <rect x="78" y="72" width="1044" height="576" rx="30" fill="white" stroke="#D5E2F5"/>
+  <rect x="124" y="124" width="952" height="110" rx="26" fill="url(#panel6)"/>
+  <text x="174" y="188" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">智慧場域整合</text>
+  <rect x="214" y="340" width="124" height="142" rx="24" fill="#1B4C93"/>
+  <rect x="382" y="292" width="154" height="190" rx="24" fill="#2D84DE"/>
+  <rect x="580" y="358" width="118" height="124" rx="24" fill="#1B4C93"/>
+  <rect x="742" y="314" width="146" height="168" rx="24" fill="#2D84DE"/>
+  <rect x="932" y="382" width="88" height="100" rx="24" fill="#1B4C93"/>
+  <path d="M338 430H382" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M536 430H580" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M698 430H742" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M888 430H932" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="382" cy="430" r="9" fill="#69C4F7"/>
+  <circle cx="580" cy="430" r="9" fill="#69C4F7"/>
+  <circle cx="742" cy="430" r="9" fill="#69C4F7"/>
+  <circle cx="932" cy="430" r="9" fill="#69C4F7"/>
+  <text x="356" y="614" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">能源 / 安防 / 停車 / 設備資料整合</text>
+</svg>

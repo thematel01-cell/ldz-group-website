@@ -1,0 +1,73 @@
+<svg width="1600" height="980" viewBox="0 0 1600 980" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="110" y1="70" x2="1490" y2="910" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F7FBFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
+    </linearGradient>
+    <linearGradient id="core" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#10306E"/>
+      <stop offset="1" stop-color="#2A84DE"/>
+    </linearGradient>
+    <linearGradient id="chipBlue" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#75BDF7"/>
+      <stop offset="1" stop-color="#3B7FDE"/>
+    </linearGradient>
+    <linearGradient id="chipGreen" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#7DDFB2"/>
+      <stop offset="1" stop-color="#49B07E"/>
+    </linearGradient>
+    <linearGradient id="chipPurple" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#C8BFFF"/>
+      <stop offset="1" stop-color="#8B88E8"/>
+    </linearGradient>
+  </defs>
+  <rect width="1600" height="980" rx="34" fill="url(#bg)"/>
+  <rect x="58" y="54" width="1484" height="872" rx="32" fill="white" stroke="#D7E4F8"/>
+  <text x="90" y="118" fill="#0D3170" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22" font-weight="700">AUTOMATION / ROBOTICS / CLOUD</text>
+  <text x="90" y="176" fill="#0D3170" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="54" font-weight="700">設備、控制、資料與平台串接架構</text>
+  <text x="90" y="226" fill="#60769B" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="26">從設備端到平台端建立可持續延伸的智慧營運能力</text>
+
+  <rect x="118" y="314" width="230" height="126" rx="28" fill="url(#chipBlue)"/>
+  <text x="175" y="386" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">設備層</text>
+  <text x="153" y="426" fill="rgba(255,255,255,0.88)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22">自動化設備 / 機器手臂</text>
+
+  <rect x="420" y="314" width="230" height="126" rx="28" fill="url(#chipBlue)"/>
+  <text x="477" y="386" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">控制層</text>
+  <text x="460" y="426" fill="rgba(255,255,255,0.88)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22">控制邏輯 / 通訊串接</text>
+
+  <rect x="722" y="278" width="270" height="194" rx="94" fill="url(#core)"/>
+  <text x="760" y="364" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="44" font-weight="700">LDZ Cloud</text>
+  <text x="780" y="408" fill="rgba(255,255,255,0.88)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">Platform Core</text>
+
+  <rect x="1064" y="314" width="230" height="126" rx="28" fill="url(#chipGreen)"/>
+  <text x="1121" y="386" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">資料層</text>
+  <text x="1099" y="426" fill="rgba(255,255,255,0.9)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22">可視化 / 告警 / 紀錄</text>
+
+  <rect x="1366" y="314" width="170" height="126" rx="28" fill="url(#chipGreen)"/>
+  <text x="1414" y="386" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">AI</text>
+  <text x="1392" y="426" fill="rgba(255,255,255,0.9)" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="22">Future Ops</text>
+
+  <path d="M348 378H420" stroke="#7EC6F8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M650 378H722" stroke="#7EC6F8" stroke-width="12" stroke-linecap="round"/>
+  <path d="M992 378H1064" stroke="#7DD9A6" stroke-width="12" stroke-linecap="round"/>
+  <path d="M1294 378H1366" stroke="#7DD9A6" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="420" cy="378" r="10" fill="#7EC6F8"/>
+  <circle cx="722" cy="378" r="10" fill="#7EC6F8"/>
+  <circle cx="1064" cy="378" r="10" fill="#7DD9A6"/>
+  <circle cx="1366" cy="378" r="10" fill="#7DD9A6"/>
+
+  <rect x="242" y="594" width="240" height="84" rx="24" fill="white" stroke="#D7E4F8"/>
+  <text x="286" y="646" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">即時監控</text>
+
+  <rect x="520" y="594" width="240" height="84" rx="24" fill="white" stroke="#D7E4F8"/>
+  <text x="550" y="646" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">跨場域管理</text>
+
+  <rect x="798" y="594" width="240" height="84" rx="24" fill="white" stroke="#D7E4F8"/>
+  <text x="820" y="646" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">事件與告警追蹤</text>
+
+  <rect x="1076" y="594" width="240" height="84" rx="24" fill="white" stroke="#D7E4F8"/>
+  <text x="1118" y="646" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">資料分析優化</text>
+
+  <rect x="659" y="734" width="282" height="84" rx="24" fill="white" stroke="#D7E4F8"/>
+  <text x="686" y="786" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">未來 AI 導入基礎</text>
+</svg>

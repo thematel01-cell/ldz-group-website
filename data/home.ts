@@ -154,7 +154,7 @@ export const coreCapabilities: CapabilityCard[] = [
     },
     image: "/images/home/kiosk-unmanned-solutions.svg",
     tag: "KIOSK",
-    href: "/about"
+    href: "/products/self-service-medical"
   },
   {
     slug: "oem-odm-product",
@@ -165,7 +165,7 @@ export const coreCapabilities: CapabilityCard[] = [
     },
     image: "/images/home/oem-odm-product-development.svg",
     tag: "OEM / ODM",
-    href: "/about"
+    href: "/products/oem-odm"
   },
   {
     slug: "aiot",
@@ -176,7 +176,7 @@ export const coreCapabilities: CapabilityCard[] = [
     },
     image: "/images/home/aiot-cloud-platform.svg",
     tag: "AIoT",
-    href: "/future-ai"
+    href: "/products/automation-cloud"
   }
 ];
 

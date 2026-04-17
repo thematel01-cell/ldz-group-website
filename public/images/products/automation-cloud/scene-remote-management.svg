@@ -1,0 +1,28 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg4" x1="90" y1="60" x2="1110" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="panel4" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123472"/>
+      <stop offset="1" stop-color="#2D84DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg4)"/>
+  <rect x="78" y="72" width="1044" height="576" rx="30" fill="white" stroke="#D5E2F5"/>
+  <rect x="124" y="124" width="952" height="110" rx="26" fill="url(#panel4)"/>
+  <text x="174" y="188" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">智慧設備遠端管理</text>
+  <rect x="220" y="290" width="420" height="246" rx="28" fill="#0F2F6D"/>
+  <rect x="258" y="330" width="344" height="26" rx="13" fill="#75BDF7"/>
+  <rect x="258" y="378" width="204" height="112" rx="22" fill="#EAF3FF"/>
+  <rect x="484" y="378" width="118" height="48" rx="16" fill="#2D84DE"/>
+  <rect x="484" y="442" width="118" height="48" rx="16" fill="#173B79"/>
+  <path d="M730 332H940" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M730 392H940" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M730 452H940" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <circle cx="980" cy="332" r="18" fill="#74D8A4"/>
+  <circle cx="980" cy="392" r="18" fill="#75BDF7"/>
+  <circle cx="980" cy="452" r="18" fill="#FFCF66"/>
+  <text x="364" y="612" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">跨站監控 / 儀表板 / 告警追蹤</text>
+</svg>

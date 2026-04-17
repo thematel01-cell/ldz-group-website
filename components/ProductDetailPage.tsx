@@ -1,8 +1,9 @@
 "use client";
 
 import type { ProductCategory } from "@/data/products";
-import { ContactCTA } from "./ContactCTA";
 import { AutomationCloudProductPage } from "./AutomationCloudProductPage";
+import { ContactCTA } from "./ContactCTA";
+import { OemOdmProductPage } from "./OemOdmProductPage";
 import { ParkingChargingProductPage } from "./ParkingChargingProductPage";
 import { ProductDetailShared } from "./ProductDetailShared";
 import { SecurityVisionProductPage } from "./SecurityVisionProductPage";
@@ -27,11 +28,15 @@ export function ProductDetailPage({ product }: ProductDetailPageProps) {
   }
 
   if (product.id === "automation-cloud") {
-    return <AutomationCloudProductPage product={product} />;
+    return <AutomationCloudProductPage />;
   }
 
   if (product.id === "self-service-medical") {
     return <SelfServiceMedicalProductPage product={product} />;
+  }
+
+  if (product.id === "oem-odm") {
+    return <OemOdmProductPage />;
   }
 
   return (

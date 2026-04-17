@@ -1,0 +1,27 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg5" x1="90" y1="60" x2="1110" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="panel5" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123472"/>
+      <stop offset="1" stop-color="#2D84DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg5)"/>
+  <rect x="78" y="72" width="1044" height="576" rx="30" fill="white" stroke="#D5E2F5"/>
+  <rect x="124" y="124" width="952" height="110" rx="26" fill="url(#panel5)"/>
+  <text x="174" y="188" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">醫療 / 公共服務終端</text>
+  <rect x="302" y="284" width="218" height="272" rx="30" fill="#173B79"/>
+  <rect x="336" y="318" width="150" height="132" rx="18" fill="#EAF3FF"/>
+  <rect x="354" y="346" width="114" height="18" rx="9" fill="#2D84DE"/>
+  <rect x="354" y="380" width="84" height="14" rx="7" fill="#8EA8CC"/>
+  <rect x="354" y="472" width="114" height="44" rx="16" fill="#2D84DE"/>
+  <circle cx="411" cy="538" r="10" fill="#7ADAA3"/>
+  <path d="M666 354H920" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M666 414H920" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <path d="M666 474H920" stroke="#69C4F7" stroke-width="10" stroke-linecap="round"/>
+  <rect x="944" y="334" width="76" height="160" rx="22" fill="#F3F8FF" stroke="#D7E4F8"/>
+  <text x="322" y="614" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">自助設備 / 智慧終端 / 後台整合</text>
+</svg>

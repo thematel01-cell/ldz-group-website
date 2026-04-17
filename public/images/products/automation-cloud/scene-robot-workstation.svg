@@ -1,0 +1,30 @@
+<svg width="1200" height="720" viewBox="0 0 1200 720" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg2" x1="90" y1="60" x2="1110" y2="660" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F8FBFF"/>
+      <stop offset="1" stop-color="#E7F0FF"/>
+    </linearGradient>
+    <linearGradient id="panel2" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#123472"/>
+      <stop offset="1" stop-color="#2D84DE"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="720" rx="32" fill="url(#bg2)"/>
+  <rect x="78" y="72" width="1044" height="576" rx="30" fill="white" stroke="#D5E2F5"/>
+  <rect x="124" y="124" width="952" height="110" rx="26" fill="url(#panel2)"/>
+  <text x="174" y="188" fill="white" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="40" font-weight="700">機器人工作站</text>
+  <rect x="170" y="500" width="860" height="28" rx="14" fill="#D9E7FA"/>
+  <path d="M342 500V392L454 324" stroke="#1B4C93" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M454 324L592 390" stroke="#2D84DE" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M592 390L742 322" stroke="#1B4C93" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M742 322L818 392" stroke="#2D84DE" stroke-width="18" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="342" cy="392" r="28" fill="#F3F8FF" stroke="#9CB4D9" stroke-width="6"/>
+  <circle cx="454" cy="324" r="28" fill="#F3F8FF" stroke="#9CB4D9" stroke-width="6"/>
+  <circle cx="592" cy="390" r="28" fill="#F3F8FF" stroke="#9CB4D9" stroke-width="6"/>
+  <circle cx="742" cy="322" r="28" fill="#F3F8FF" stroke="#9CB4D9" stroke-width="6"/>
+  <circle cx="818" cy="392" r="28" fill="#F3F8FF" stroke="#9CB4D9" stroke-width="6"/>
+  <rect x="850" y="292" width="142" height="112" rx="24" fill="#F3F8FF" stroke="#D7E4F8"/>
+  <rect x="880" y="328" width="82" height="18" rx="9" fill="#2D84DE"/>
+  <rect x="880" y="362" width="62" height="14" rx="7" fill="#8EA8CC"/>
+  <text x="342" y="616" fill="#173A79" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="28" font-weight="700">手臂控制 / 工位邏輯 / 工作站整合</text>
+</svg>

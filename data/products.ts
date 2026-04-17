@@ -221,6 +221,47 @@ export const productCategories: ProductCategory[] = [
         { zh: "後台管理、報表與教育訓練", en: "Admin platform, reporting, and user training" }
       ]
     }
+  },
+  {
+    id: "oem-odm",
+    title: { zh: "OEM / ODM 產品開發", en: "OEM / ODM Product Development" },
+    description: {
+      zh: "支援產品規劃、設計整合、打樣驗證與量產導入，協助客戶加速硬體產品落地。",
+      en: "Supports planning, design integration, prototyping, validation, and mass-production rollout for hardware product development."
+    },
+    image: "/images/products/oem-odm.svg",
+    href: "/products/oem-odm",
+    items: [
+      { zh: "產品規劃與規格定義", en: "Product Planning and Specification" },
+      { zh: "機構 / 電子 / 韌體整合", en: "Mechanical, Electronics, and Firmware Integration" },
+      { zh: "打樣驗證與測試", en: "Prototype Validation and Testing" },
+      { zh: "量產導入與供應鏈協作", en: "Mass Production and Supply Chain Coordination" }
+    ],
+    detail: {
+      summary: {
+        zh: "從概念規劃到量產交付，建立完整的 OEM / ODM 產品開發與整合流程。",
+        en: "Builds a complete OEM / ODM workflow from concept planning to mass-production delivery."
+      },
+      intro: {
+        zh: "立達興提供從需求釐清、工業設計、硬體整合、韌體開發、樣機驗證到量產導入的完整服務，協助品牌商與系統業者降低開發風險、縮短時程，並讓產品更穩定地進入市場。",
+        en: "LDZ supports the full path from requirement definition and industrial design to hardware integration, firmware development, prototype validation, and production transfer."
+      },
+      highlights: [
+        { zh: "支援品牌商、系統商與專案型客製產品開發", en: "Supports branded, system-integrator, and custom project product development" },
+        { zh: "涵蓋機構、電子、韌體與測試驗證整合", en: "Covers mechanical, electronic, firmware, and validation integration" },
+        { zh: "協助打樣、試產、量產與供應鏈協作", en: "Supports prototyping, pilot runs, mass production, and supply-chain collaboration" }
+      ],
+      scenarios: [
+        { zh: "品牌端新品導入與客製設備開發", en: "New branded product launches and custom device development" },
+        { zh: "智慧設備、工控設備與專用終端產品", en: "Smart devices, industrial-control hardware, and dedicated terminals" },
+        { zh: "需要從設計一路銜接量產的整合專案", en: "Integrated projects that must bridge design all the way to production" }
+      ],
+      deliverables: [
+        { zh: "產品規格定義、BOM 與設計文件", en: "Product specs, BOMs, and design documentation" },
+        { zh: "樣機打樣、測試驗證與修正建議", en: "Prototypes, validation testing, and revision recommendations" },
+        { zh: "試產導入、量產協作與製造交付", en: "Pilot-run transfer, production coordination, and manufacturing handoff" }
+      ]
+    }
   }
 ];
 
