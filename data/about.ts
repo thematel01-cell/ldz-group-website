@@ -54,28 +54,34 @@ export const partnerSection = {
   },
   logos: [
     {
-      name: "Partner 01",
-      image: "/images/about/partners/partner-01.png"
+      name: "SG Biomedical",
+      image: "/images/about/partners/partner-01.png",
+      href: "https://www.sghlds.com/index.php/tw/homepage"
     },
     {
-      name: "Partner 02",
-      image: "/images/about/partners/partner-02.png"
+      name: "BONJAY",
+      image: "/images/about/partners/partner-02.png",
+      href: "https://www.bonjays.com/en/"
     },
     {
-      name: "Partner 03",
-      image: "/images/about/partners/partner-03.png"
+      name: "ENTEK",
+      image: "/images/about/partners/partner-03.png",
+      href: "https://www.entek.com.tw/index.html"
     },
     {
-      name: "Partner 04",
-      image: "/images/about/partners/partner-04.png"
+      name: "Advantech",
+      image: "/images/about/partners/partner-04.png",
+      href: "https://www.advantech.com/"
     },
     {
-      name: "Partner 05",
-      image: "/images/about/partners/partner-05.png"
+      name: "Delta",
+      image: "/images/about/partners/partner-05.png",
+      href: "https://www.deltaww.com/"
     },
     {
-      name: "Partner 06",
-      image: "/images/about/partners/partner-06.jpg"
+      name: "eTreego",
+      image: "/images/about/partners/partner-06.jpg",
+      href: "https://www.etreego.com/"
     }
   ]
 };

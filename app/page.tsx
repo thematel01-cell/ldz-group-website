@@ -1,17 +1,17 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 
 import { ContactCTA } from "@/components/ContactCTA";
 import { CoreCapabilities } from "@/components/CoreCapabilities";
 import { HeroSection } from "@/components/HeroSection";
 import { useLocale } from "@/components/LocaleProvider";
-import { ProductCard } from "@/components/ProductCard";
 import { SectionTitle } from "@/components/SectionTitle";
 import { TechnologyMapSection } from "@/components/TechnologyMapSection";
 import { TimelineSection } from "@/components/TimelineSection";
 import { t } from "@/data/i18n";
-import { aboutSummary, featuredEntries, futureAiSection } from "@/data/home";
+import { aboutSummary, futureAiSection } from "@/data/home";
 
 export default function HomePage() {
   const { locale } = useLocale();
@@ -41,16 +41,19 @@ export default function HomePage() {
         </div>
       </section>
 
-      <section className="section-space">
+      <section className="section-space pt-0">
         <div className="container-shell">
-          <SectionTitle
-            eyebrow={locale === "zh" ? "精選入口" : "Featured Access"}
-            title={locale === "zh" ? "解決方案" : "Solutions"}
-          />
-          <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-4">
-            {featuredEntries.map((item, index) => (
-              <ProductCard key={`featured-entry-${index}`} {...item} />
-            ))}
+          <div className="overflow-hidden rounded-[32px] border border-[var(--line)] bg-white p-4 shadow-[var(--shadow-card)] md:p-6">
+            <div className="overflow-hidden rounded-[24px] border border-[var(--line)] bg-[linear-gradient(180deg,#f8fbff_0%,#edf5ff_100%)]">
+              <Image
+                src="/images/home/alldemo.png"
+                alt="LDZ 綜合方案展示"
+                width={1600}
+                height={900}
+                className="h-auto w-full"
+                priority
+              />
+            </div>
           </div>
         </div>
       </section>

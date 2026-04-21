@@ -24,7 +24,7 @@ export function ProductHero() {
           <p className="mt-6 max-w-3xl text-lg leading-8 text-[var(--muted)]">{hero.subtitle}</p>
           <p className="mt-5 max-w-3xl text-base leading-8 text-[var(--muted)]">{hero.description}</p>
           <div className="mt-8 flex flex-wrap gap-3">
-            {hero.buttons.map((button) => (
+            {hero.buttons.slice(0, 1).map((button) => (
               <a
                 key={button.label}
                 href={button.href}
@@ -36,26 +36,7 @@ export function ProductHero() {
           </div>
         </div>
         <div className="relative overflow-hidden rounded-[32px] border border-white/70 shadow-[var(--shadow-card)]">
-          <div className="absolute inset-0 z-10 bg-[linear-gradient(135deg,rgba(8,27,67,0.72)_0%,rgba(12,77,162,0.4)_50%,rgba(29,139,219,0.18)_100%)]" />
           <Image src={hero.image.src} alt={hero.image.title} width={1600} height={900} className="h-auto w-full" />
-          <div className="absolute left-6 top-6 z-20 flex flex-wrap gap-2">
-            {hero.tags.map((tag) => (
-              <span key={tag} className="rounded-full border border-white/18 bg-white/10 px-3 py-1 text-xs font-semibold uppercase tracking-[0.12em] text-white">
-                {tag}
-              </span>
-            ))}
-          </div>
-          <div className="absolute inset-x-6 bottom-6 z-20 hidden gap-3 md:grid md:grid-cols-3">
-            {hero.metrics.map((item) => (
-              <div
-                key={item.label}
-                className="rounded-[20px] border border-white/14 bg-[linear-gradient(180deg,rgba(255,255,255,0.14),rgba(255,255,255,0.08))] px-4 py-4 text-white backdrop-blur-sm"
-              >
-                <p className="text-[11px] font-semibold uppercase tracking-[0.14em] text-white/72">{item.label}</p>
-                <p className="mt-2 text-sm font-medium leading-6 text-white/92">{item.value}</p>
-              </div>
-            ))}
-          </div>
         </div>
       </div>
     </section>

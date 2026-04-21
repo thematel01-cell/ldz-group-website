@@ -32,10 +32,6 @@ export function TechnologyMapSection() {
             />
           </div>
         </div>
-
-        <div className="mx-auto mt-6 max-w-4xl rounded-[24px] border border-[var(--line)] bg-[var(--primary-soft)] px-6 py-5 text-center text-sm leading-7 text-[var(--primary-dark)] shadow-[var(--shadow-soft)]">
-          {t(technologyMapSection.replaceHint, locale)}
-        </div>
       </div>
     </section>
   );

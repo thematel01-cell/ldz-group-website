@@ -24,23 +24,23 @@ export type FeatureEntry = {
 
 export const homeHero = {
   eyebrow: {
-    zh: "智慧能源與場域整合基礎建設服務供應商",
-    en: "Smart Energy and Site Integration Infrastructure Service Provider"
+    zh: "綠色能源與智慧場域整合基礎設備服務供應商",
+    en: "Green Energy and Smart-Site Infrastructure Equipment Service Provider"
   },
   title: {
-    zh: "立達興科技 LDZ Group",
+    zh: "立達興科技股份有限公司",
     en: "LDZ Group"
   },
   subtitle: {
     zh: "智慧能源、停車充電、安防影像與自動化系統",
-    en: "Smart Energy, Parking & EV Charging, AI Vision, and Automation Systems"
+    en: "Smart Energy, EV Charging, Security Vision, and Automation Systems"
   },
   description: {
     zh: "從智慧能源系統、停車充電、安防影像到自動化設備與雲端平台，立達興提供場域級的智慧基礎建設整合方案。",
-    en: "From energy systems and EV charging to AI security, automation equipment, and cloud platforms, LDZ delivers site-scale smart infrastructure solutions."
+    en: "From smart energy systems and EV charging to security vision, automation equipment, and cloud platforms, LDZ delivers site-scale smart infrastructure integration solutions."
   },
   primaryCta: {
-    label: { zh: "瀏覽產品", en: "Explore Products" },
+    label: { zh: "探索產品與服務", en: "Explore Products" },
     href: "/products"
   },
   secondaryCta: {
@@ -49,7 +49,7 @@ export const homeHero = {
   },
   stats: [
     { value: "2013", label: { zh: "成立年份", en: "Established" } },
-    { value: "B2B", label: { zh: "企業導向", en: "Enterprise Focus" } },
+    { value: "B2B", label: { zh: "企業服務", en: "Enterprise Focus" } },
     { value: "AIoT", label: { zh: "整合核心", en: "Integration Core" } },
     { value: "1000+", label: { zh: "應用場域", en: "Application Sites" } }
   ] satisfies HeroStat[],
@@ -60,7 +60,7 @@ export const homeHero = {
     },
     title: {
       zh: "以整合技術驅動智慧場域升級",
-      en: "Driving Smart Site Upgrades Through Integrated Technology"
+      en: "Driving Smart-Site Upgrades Through Integrated Technology"
     },
     items: [
       {
@@ -70,8 +70,8 @@ export const homeHero = {
           en: "Leadership in Smart Energy"
         },
         description: {
-          zh: "透過能源系統、EMS 與儲能整合能力，協助客戶提升效率與韌性。",
-          en: "Expanding efficiency and resilience through integrated energy systems, EMS, and storage."
+          zh: "結合能源管理、EMS、儲能與再生能源應用，持續提升效率與韌性。",
+          en: "Improving efficiency and resilience through integrated energy systems, EMS, storage, and renewable-energy applications."
         }
       },
       {
@@ -81,19 +81,19 @@ export const homeHero = {
           en: "Digital-Driven Manufacturing"
         },
         description: {
-          zh: "整合設備、自動化流程與資料平台，加速工業場域的數位升級。",
-          en: "Accelerating industrial transformation through equipment, automation workflows, and connected data platforms."
+          zh: "串接設備、自動化流程與資料平台，協助企業加速工業數位化轉型。",
+          en: "Connecting equipment, automation workflows, and data platforms to accelerate industrial digital transformation."
         }
       },
       {
         key: "Z",
         heading: {
-          zh: "永續低碳轉型",
+          zh: "淨零與永續轉型",
           en: "Zero-Carbon Transformation"
         },
         description: {
-          zh: "透過智慧用能與系統整合，協助企業朝向可持續營運前進。",
-          en: "Helping organizations move toward sustainable operations through smart energy usage and integrated systems."
+          zh: "以綠色能源與智慧系統協助企業朝向低碳、永續與高效率營運邁進。",
+          en: "Helping organizations move toward low-carbon, sustainable, and efficient operations through green energy and smart systems."
         }
       }
     ]
@@ -105,52 +105,52 @@ export const coreCapabilities: CapabilityCard[] = [
     slug: "energy",
     title: { zh: "智慧能源系統與設備", en: "Smart Energy Systems & Equipment" },
     description: {
-      zh: "整合 EMS、儲能、太陽能與微電網系統，提升能源效率與供使用可視化。",
-      en: "Integrating EMS, storage, solar, and microgrids to improve efficiency and energy visibility."
+      zh: "整合 EMS、儲能、太陽能與微電網應用，提升能源效率與可視化管理能力。",
+      en: "Integrating EMS, energy storage, solar, and microgrid applications to improve efficiency and energy visibility."
     },
     image: "/images/home/energy-systems-equipment.svg",
     tag: "Energy",
-    href: "/products#smart-energy"
+    href: "/products/smart-energy"
   },
   {
     slug: "parking-charging",
     title: { zh: "智慧停車與充電", en: "Smart Parking & EV Charging" },
     description: {
-      zh: "整合車牌辨識、停車管理、充電樁設備與雲端營運平台，打造一致的場站服務流程。",
-      en: "Unified integration of LPR, parking management, charging infrastructure, and cloud operations."
+      zh: "整合車牌辨識、停車管理、充電設備與雲端營運後台，建立一體化場域服務流程。",
+      en: "Unifying LPR, parking management, charging equipment, and cloud operations into one site-service workflow."
     },
     image: "/images/home/parking-ev-operations.svg",
     tag: "Parking & EV",
-    href: "/products#smart-energy"
+    href: "/products/parking-charging"
   },
   {
     slug: "security",
     title: { zh: "智慧安防影像", en: "Smart Security Vision" },
     description: {
-      zh: "結合影像設備、AI 分析、周界防護與事件告警，提升場域安全與管理效率。",
-      en: "Combining imaging devices, AI analytics, perimeter protection, and event alerts to enhance site safety and management."
+      zh: "結合影像設備、AI 分析、周界防護與事件告警，提升場域安全管理能力。",
+      en: "Combining imaging devices, AI analytics, perimeter protection, and event alerts to enhance site security management."
     },
     image: "/images/home/security-vision-ops.svg",
     tag: "AI Vision",
-    href: "/products#security-vision"
+    href: "/products/security-vision"
   },
   {
     slug: "automation",
-    title: { zh: "自動化設備與機器人開發", en: "Automation & Robotics Development" },
+    title: { zh: "自動化與機器人開發", en: "Automation & Robotics Development" },
     description: {
-      zh: "整合開發自動化設備、控制系統、機器人、運動控制系統。",
-      en: "Integrated development of automation equipment, control systems, robotics, and motion control systems."
+      zh: "整合自動化設備、控制系統、機器手臂與運動控制，支援多元工業應用。",
+      en: "Integrated development of automation equipment, control systems, robotics, and motion-control solutions."
     },
     image: "/images/home/automation-motion-control.svg",
     tag: "Automation",
-    href: "/products#automation-cloud"
+    href: "/products/automation-cloud"
   },
   {
     slug: "kiosk",
-    title: { zh: "KIOSK 無人化", en: "KIOSK Unmanned Solutions" },
+    title: { zh: "KIOSK 自助服務", en: "KIOSK Self-Service Solutions" },
     description: {
-      zh: "開發符合應用環境的無人化服務、自助售票機、自助申辦機、自助導覽機。",
-      en: "Developing unmanned services for real application environments, including self-service ticketing, application, and guidance kiosks."
+      zh: "支援自助報到、取號、資訊導引與櫃台數位化，適用於醫療與公共服務場域。",
+      en: "Supporting self check-in, queueing, guidance, and service-counter digitization for healthcare and public-service sites."
     },
     image: "/images/home/kiosk-unmanned-solutions.svg",
     tag: "KIOSK",
@@ -160,8 +160,8 @@ export const coreCapabilities: CapabilityCard[] = [
     slug: "oem-odm-product",
     title: { zh: "OEM / ODM 產品開發", en: "OEM / ODM Product Development" },
     description: {
-      zh: "支援產品規劃、設計整合、打樣與量產導入。",
-      en: "Supporting product planning, design integration, prototyping, and production rollout."
+      zh: "支援產品規劃、設計整合、打樣驗證與量產導入，加速硬體產品落地。",
+      en: "Supporting product planning, design integration, prototyping, validation, and production rollout."
     },
     image: "/images/home/oem-odm-product-development.svg",
     tag: "OEM / ODM",
@@ -169,9 +169,9 @@ export const coreCapabilities: CapabilityCard[] = [
   },
   {
     slug: "aiot",
-    title: { zh: "AIoT 雲端軟硬體整合", en: "AIoT Cloud Integration" },
+    title: { zh: "AIoT 雲端整合平台", en: "AIoT Cloud Integration" },
     description: {
-      zh: "軟硬體整合與可視化平台開發與 IT / OT / Cloud 串接能力。",
+      zh: "整合硬體、軟體、可視化平台與 IT / OT / Cloud 架構，建立完整數位營運基礎。",
       en: "Combining hardware, software, visualization platforms, and IT / OT / Cloud connectivity into one integrated stack."
     },
     image: "/images/home/aiot-cloud-platform.svg",
@@ -209,7 +209,7 @@ export const featuredEntries: FeatureEntry[] = [
       zh: "整合監測、儲能、再生能源調度與 EMS 應用，提升能源效率與管理品質。",
       en: "Integrating monitoring, storage, renewable dispatch, and EMS applications for better energy performance."
     },
-    href: "/products#smart-energy",
+    href: "/products/smart-energy",
     image: "/images/products/smart-energy.svg",
     tag: "Products"
   },
@@ -217,11 +217,11 @@ export const featuredEntries: FeatureEntry[] = [
     title: { zh: "停車與充電營運", en: "EV Charging & Parking Management" },
     description: {
       zh: "串接停車動線、計費、車牌辨識與充電營運，打造完整場站流程。",
-      en: "Connecting parking flow, billing, license plate recognition, and charging operations into one service loop."
+      en: "Connecting parking flow, billing, license-plate recognition, and charging operations into one service loop."
     },
-    href: "/solutions#parking-ev",
+    href: "/products/parking-charging",
     image: "/images/solutions/parking-ev.svg",
-    tag: "Solutions"
+    tag: "Operations"
   },
   {
     title: { zh: "AI 安防影像", en: "AI Security Vision" },
@@ -229,7 +229,7 @@ export const featuredEntries: FeatureEntry[] = [
       zh: "以影像設備結合 AI 分析，支援主動式安全管理、告警與事件追蹤。",
       en: "Combining imaging devices with AI analytics for proactive safety management, alerts, and event tracking."
     },
-    href: "/products#security-vision",
+    href: "/products/security-vision",
     image: "/images/products/ai-security.svg",
     tag: "AI Vision"
   },
@@ -239,7 +239,7 @@ export const featuredEntries: FeatureEntry[] = [
       zh: "涵蓋自動化設備、Kiosk、自助流程與後台資料整合，支援多元場域應用。",
       en: "Supporting equipment automation, kiosks, self-service workflows, and backend connectivity for diverse use cases."
     },
-    href: "/products#self-service-medical",
+    href: "/products/self-service-medical",
     image: "/images/products/automation-service.svg",
     tag: "Automation"
   }

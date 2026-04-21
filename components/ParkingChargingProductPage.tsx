@@ -139,37 +139,37 @@ const equipmentCards = [
   {
     title: "智慧車牌辨識柱",
     description: "作為車輛辨識與進出控管前端設備。",
-    image: "/images/products/parking-license-pillar.svg",
+    image: "/images/products/parking-license-pillar.png",
     features: ["車牌辨識與授權管理", "可整合門禁控制", "支援後台串接"]
   },
   {
     title: "停車場控制設備",
     description: "用於停車場出入口、車位狀態與停管流程整合。",
-    image: "/images/products/parking-control-device.svg",
+    image: "/images/products/parking-control-device.png",
     features: ["場域管制", "車位資訊整合", "可擴充停車管理邏輯"]
   },
   {
     title: "AC / DC 充電設備",
     description: "對應不同場域需求導入 EV 充電基礎設備。",
-    image: "/images/products/parking-ev-charger.svg",
+    image: "/images/products/parking-ev-charger.png",
     features: ["支援遠端控制", "可納入雲端平台管理", "適合社區 / 商辦 / 停車場"]
   },
   {
     title: "智慧電表 / 電力採集設備",
     description: "用於用電監測與能源資料回傳。",
-    image: "/images/products/parking-smart-meter.svg",
+    image: "/images/products/parking-smart-meter.png",
     features: ["即時監測", "電力資料採集", "供 EMS 調度分析使用"]
   },
   {
     title: "雲端營運管理平台",
     description: "整合會員、交易、設備、場域與報表的核心平台。",
-    image: "/images/products/parking-cloud-platform.svg",
+    image: "/images/products/parking-cloud-platform.png",
     features: ["多站點管理", "雲端操作", "可延伸串接 API"]
   },
   {
     title: "EMS 能源管理模組",
     description: "針對整體充電負載進行保護與優化調度。",
-    image: "/images/products/parking-ems-module.svg",
+    image: "/images/products/parking-ems-module.png",
     features: ["群組限流", "時間電價調度", "負載平衡控制"]
   }
 ];
@@ -276,7 +276,8 @@ export function ParkingChargingProductPage() {
               整合停車管理、車牌辨識、EV 充電設備、雲端營運平台與能源調控，打造可管理、可收費、可擴充的智慧場域。
             </p>
             <p className="mt-5 max-w-3xl text-base leading-8 text-[var(--muted)]">
-              LDZ 提供從前端設備到後端平台的整合方案，協助社區、商辦、停車場與複合場域，完成停車與充電的一體化建置。
+              LDZ
+              提供從前端設備到後端平台的整合方案，協助社區、商辦、停車場與複合場域，完成停車與充電的一體化建置。
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               {heroChips.map((chip) => (
@@ -311,11 +312,15 @@ export function ParkingChargingProductPage() {
                   <div className="mt-4 grid gap-3">
                     <div className="rounded-[18px] bg-white/10 p-4">
                       <p className="text-lg font-semibold">車牌辨識與門禁</p>
-                      <p className="mt-2 text-sm leading-6 text-white/82">進出辨識、白名單授權、門禁控制</p>
+                      <p className="mt-2 text-sm leading-6 text-white/82">
+                        進出辨識、白名單授權、門禁控制
+                      </p>
                     </div>
                     <div className="rounded-[18px] bg-white/10 p-4">
                       <p className="text-lg font-semibold">停車與車位管理</p>
-                      <p className="mt-2 text-sm leading-6 text-white/82">車位狀態、月租 / 訪客管理、費率規則</p>
+                      <p className="mt-2 text-sm leading-6 text-white/82">
+                        車位狀態、月租 / 訪客管理、費率規則
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -326,11 +331,15 @@ export function ParkingChargingProductPage() {
                   <div className="mt-4 grid gap-3">
                     <div className="rounded-[18px] bg-white/10 p-4">
                       <p className="text-lg font-semibold">充電設備與會員支付</p>
-                      <p className="mt-2 text-sm leading-6 text-white/82">預約、啟停、交易、會員權限與支付機制</p>
+                      <p className="mt-2 text-sm leading-6 text-white/82">
+                        預約、啟停、交易、會員權限與支付機制
+                      </p>
                     </div>
                     <div className="rounded-[18px] bg-white/10 p-4">
                       <p className="text-lg font-semibold">雲端平台與能源調度</p>
-                      <p className="mt-2 text-sm leading-6 text-white/82">群組限流、負載平衡、報表與告警中心</p>
+                      <p className="mt-2 text-sm leading-6 text-white/82">
+                        群組限流、負載平衡、報表與告警中心
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -407,6 +416,22 @@ export function ParkingChargingProductPage() {
         </div>
       </section>
 
+      <section className="section-space pt-0">
+        <div className="container-shell">
+          <div className="overflow-hidden rounded-[32px] border border-[var(--line)] bg-white p-4 shadow-[var(--shadow-card)] md:p-6">
+            <div className="overflow-hidden rounded-[26px] border border-[var(--line)] bg-[linear-gradient(180deg,#f8fbff_0%,#edf5ff_100%)]">
+              <Image
+                src="/images/products/parkingdemo.png"
+                alt="LDZ 智慧停車與充電整合管理系統示意圖"
+                width={1600}
+                height={900}
+                className="h-auto w-full"
+              />
+            </div>
+          </div>
+        </div>
+      </section>
+
       <section id="architecture" className="section-space pt-0">
         <div className="container-shell">
           <SectionHeading
@@ -461,7 +486,7 @@ export function ParkingChargingProductPage() {
           <div className="mt-10 overflow-hidden rounded-[32px] border border-[var(--line)] bg-white p-4 shadow-[var(--shadow-card)] md:p-6">
             <div className="overflow-hidden rounded-[26px] border border-[var(--line)] bg-[linear-gradient(180deg,#f8fbff_0%,#edf5ff_100%)]">
               <Image
-                src="/images/products/parking-software-dashboard.png.bmp"
+                src="/images/products/parking-software-dashboard.png"
                 alt="LDZ 智慧停車與充電營運管理平台介面示意"
                 width={1600}
                 height={900}
@@ -500,13 +525,7 @@ export function ParkingChargingProductPage() {
             {equipmentCards.map((card) => (
               <article key={card.title} className="rounded-[28px] border border-[var(--line)] bg-white p-6 shadow-[var(--shadow-card)]">
                 <div className="overflow-hidden rounded-[22px] border border-[var(--line)] bg-[linear-gradient(180deg,#f8fbff_0%,#edf5ff_100%)]">
-                  <Image
-                    src={card.image}
-                    alt={card.title}
-                    width={1200}
-                    height={675}
-                    className="h-auto w-full"
-                  />
+                  <Image src={card.image} alt={card.title} width={1200} height={675} className="h-auto w-full" />
                 </div>
                 <h3 className="mt-5 text-2xl font-semibold text-[var(--foreground)]">{card.title}</h3>
                 <p className="mt-3 text-sm leading-7 text-[var(--muted)]">{card.description}</p>
@@ -518,23 +537,6 @@ export function ParkingChargingProductPage() {
                     </li>
                   ))}
                 </ul>
-              </article>
-            ))}
-          </div>
-        </div>
-      </section>
-
-      <section className="section-space pt-0">
-        <div className="container-shell">
-          <SectionHeading eyebrow="場域應用" title="適用場域" />
-          <div className="mt-10 grid gap-6 md:grid-cols-2 xl:grid-cols-3">
-            {siteCards.map((card) => (
-              <article key={card.title} className="rounded-[24px] border border-[var(--line)] bg-white p-6 shadow-[var(--shadow-card)]">
-                <div className="flex aspect-[16/9] items-center justify-center rounded-[20px] bg-[linear-gradient(135deg,#eef5ff_0%,#ddeaff_100%)] text-sm font-medium text-[var(--muted)]">
-                  場域示意預留區
-                </div>
-                <h3 className="mt-5 text-2xl font-semibold text-[var(--foreground)]">{card.title}</h3>
-                <p className="mt-3 text-sm leading-7 text-[var(--muted)]">{card.description}</p>
               </article>
             ))}
           </div>

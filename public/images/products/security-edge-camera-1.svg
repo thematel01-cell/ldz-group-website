@@ -1,0 +1,136 @@
+<svg width="1600" height="920" viewBox="0 0 1600 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="80" y1="60" x2="1510" y2="860" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#F9FBFF"/>
+      <stop offset="1" stop-color="#E8F1FF"/>
+    </linearGradient>
+    <linearGradient id="panel" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#DEEAFE"/>
+    </linearGradient>
+    <linearGradient id="cameraBody" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#FFFFFF"/>
+      <stop offset="1" stop-color="#CBD6E4"/>
+    </linearGradient>
+    <linearGradient id="cameraMetal" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#F7F9FB"/>
+      <stop offset="1" stop-color="#9EAABB"/>
+    </linearGradient>
+    <linearGradient id="lens" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#0F3262"/>
+      <stop offset="1" stop-color="#2E82E4"/>
+    </linearGradient>
+    <filter id="softShadow" x="0" y="0" width="1600" height="920" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feDropShadow dx="0" dy="18" stdDeviation="22" flood-color="#0A3775" flood-opacity="0.12"/>
+    </filter>
+  </defs>
+
+  <rect width="1600" height="920" rx="36" fill="url(#bg)"/>
+
+  <g opacity="0.18" stroke="#8FAED8">
+    <path d="M0 112H1600"/>
+    <path d="M0 252H1600"/>
+    <path d="M0 392H1600"/>
+    <path d="M0 532H1600"/>
+    <path d="M0 672H1600"/>
+    <path d="M0 812H1600"/>
+    <path d="M120 0V920"/>
+    <path d="M300 0V920"/>
+    <path d="M480 0V920"/>
+    <path d="M1120 0V920"/>
+    <path d="M1300 0V920"/>
+    <path d="M1480 0V920"/>
+  </g>
+
+  <text x="48" y="92" fill="#0B2D57" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="64" font-weight="700">
+    Security Edge Camera Overview
+  </text>
+  <text x="48" y="148" fill="#265A96" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="30" font-weight="700">
+    DC-IP2STC65 · 2MP POE IP Camera for smart security deployment
+  </text>
+
+  <g filter="url(#softShadow)">
+    <g>
+      <rect x="16" y="230" width="410" height="214" fill="url(#panel)" stroke="#2E5C8F" stroke-width="3"/>
+      <rect x="16" y="230" width="410" height="72" fill="#EDF5FF" stroke="#2E5C8F" stroke-width="3"/>
+      <text x="142" y="280" fill="#0B2D57" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="46" font-weight="700">Image Quality</text>
+      <text x="42" y="352" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">2MP progressive CMOS sensor</text>
+      <text x="42" y="398" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">H.264 / H.265 video compression</text>
+      <text x="42" y="444" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">Sharp detail for day and night monitoring</text>
+    </g>
+
+    <g>
+      <rect x="1174" y="230" width="410" height="180" fill="url(#panel)" stroke="#2E5C8F" stroke-width="3"/>
+      <rect x="1174" y="230" width="410" height="72" fill="#EDF5FF" stroke="#2E5C8F" stroke-width="3"/>
+      <text x="1298" y="280" fill="#0B2D57" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="46" font-weight="700">Protection</text>
+      <text x="1200" y="352" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">IP68 weatherproof housing</text>
+      <text x="1200" y="398" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">IK10 impact resistance</text>
+    </g>
+
+    <g>
+      <rect x="16" y="560" width="410" height="286" fill="url(#panel)" stroke="#2E5C8F" stroke-width="3"/>
+      <rect x="16" y="560" width="410" height="72" fill="#EDF5FF" stroke="#2E5C8F" stroke-width="3"/>
+      <text x="102" y="610" fill="#0B2D57" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="46" font-weight="700">Deployment Ready</text>
+      <text x="42" y="690" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">4 mm fixed lens for perimeter scenes</text>
+      <text x="42" y="736" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">850 nm IR LEDs with 30 m night vision</text>
+      <text x="42" y="782" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">ONVIF support for VMS integration</text>
+      <text x="42" y="828" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">POE simplifies power and network cabling</text>
+    </g>
+
+    <g>
+      <rect x="1174" y="560" width="410" height="238" fill="url(#panel)" stroke="#2E5C8F" stroke-width="3"/>
+      <rect x="1174" y="560" width="410" height="72" fill="#EDF5FF" stroke="#2E5C8F" stroke-width="3"/>
+      <text x="1272" y="610" fill="#0B2D57" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="46" font-weight="700">Smart Security Fit</text>
+      <text x="1200" y="688" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">Works with AI analytics and alerts</text>
+      <text x="1200" y="734" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">Stable edge capture for event detection</text>
+      <text x="1200" y="780" fill="#162538" font-family="Arial, 'Microsoft JhengHei', sans-serif" font-size="31" font-weight="700">Suitable for factory, campus, and site use</text>
+    </g>
+  </g>
+
+  <g transform="translate(508 214)">
+    <rect x="364" y="82" width="122" height="528" rx="8" fill="url(#cameraMetal)" stroke="#8D98A9" stroke-width="3"/>
+    <rect x="532" y="354" width="172" height="336" rx="18" fill="url(#cameraMetal)" stroke="#8D98A9" stroke-width="3"/>
+    <rect x="612" y="294" width="26" height="94" rx="13" fill="url(#cameraMetal)" stroke="#8D98A9" stroke-width="3"/>
+    <ellipse cx="625" cy="328" rx="74" ry="40" fill="url(#cameraMetal)" stroke="#8D98A9" stroke-width="3"/>
+    <ellipse cx="625" cy="328" rx="40" ry="22" fill="#D9E1E9" stroke="#8D98A9" stroke-width="3"/>
+    <ellipse cx="625" cy="306" rx="32" ry="32" fill="#D9E1E9" stroke="#8D98A9" stroke-width="3"/>
+
+    <g transform="translate(100 68)">
+      <path d="M40 170C40 120 74 80 122 72L388 24C439 16 486 53 494 104C501 145 478 184 442 201L171 328C119 352 61 318 48 265C44 249 40 214 40 170Z" fill="url(#cameraBody)" stroke="#8D98A9" stroke-width="4"/>
+      <path d="M98 126C112 104 132 87 157 82L178 79L171 324L156 329C117 340 75 318 58 284C49 266 42 247 42 221V177C42 157 51 139 65 126H98Z" fill="#252B35" stroke="#1B2230" stroke-width="4"/>
+      <circle cx="146" cy="199" r="72" fill="#121A24" stroke="#8896A8" stroke-width="4"/>
+      <circle cx="146" cy="199" r="45" fill="url(#lens)" stroke="#B5C5D9" stroke-width="4"/>
+      <circle cx="146" cy="199" r="27" fill="#122742"/>
+      <circle cx="146" cy="199" r="10" fill="#7EC9FF" fill-opacity="0.8"/>
+      <circle cx="97" cy="160" r="12" fill="#DCE7F5" stroke="#93A4BA" stroke-width="3"/>
+      <circle cx="95" cy="224" r="11" fill="#DCE7F5" stroke="#93A4BA" stroke-width="3"/>
+      <circle cx="195" cy="226" r="11" fill="#DCE7F5" stroke="#93A4BA" stroke-width="3"/>
+      <circle cx="194" cy="176" r="11" fill="#DCE7F5" stroke="#93A4BA" stroke-width="3"/>
+      <rect x="278" y="114" width="88" height="66" rx="8" fill="#ECF4FF" stroke="#8D98A9" stroke-width="3"/>
+      <path d="M300 146H340" stroke="#2A7BDA" stroke-width="6" stroke-linecap="round"/>
+      <path d="M308 128H356" stroke="#95B8E9" stroke-width="4" stroke-linecap="round"/>
+      <path d="M226 52L275 94L242 139L193 97L226 52Z" fill="#F9FBFF" stroke="#8D98A9" stroke-width="3"/>
+      <path d="M236 85L254 71L272 89L254 103L236 85Z" fill="#2A7BDA" fill-opacity="0.8"/>
+    </g>
+  </g>
+
+  <g stroke="#2E6AA4" stroke-width="4" fill="none" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M426 268H684L750 374"/>
+    <path d="M426 654H506L562 714H684V600"/>
+    <path d="M1174 322H1046L968 322L914 378"/>
+    <path d="M1174 668H1104L1054 668L964 548"/>
+    <path d="M874 220V328"/>
+    <path d="M936 220V328"/>
+    <path d="M526 692H656"/>
+    <path d="M526 366H630"/>
+  </g>
+
+  <g fill="#2E6AA4">
+    <circle cx="750" cy="374" r="8"/>
+    <circle cx="684" cy="600" r="8"/>
+    <circle cx="914" cy="378" r="8"/>
+    <circle cx="964" cy="548" r="8"/>
+    <circle cx="874" cy="328" r="8"/>
+    <circle cx="936" cy="328" r="8"/>
+  </g>
+</svg>

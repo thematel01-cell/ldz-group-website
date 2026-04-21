@@ -22,8 +22,8 @@ export const automationCloudPageData = {
       { label: "服務方向", value: "Remote Monitoring & Data Ops" }
     ],
     image: {
-      path: "/public/images/products/automation-cloud/hero.jpg",
-      src: "/images/products/automation-cloud/hero.jpg",
+      path: "/public/images/products/automation-cloud/hero-v2.jpg",
+      src: "/images/products/automation-cloud/hero-v2.jpg",
       title: "自動化機器人與雲端平台 Hero 圖"
     }
   },

@@ -119,28 +119,31 @@ export default function AboutPage() {
           <SectionTitle
             eyebrow={t(partnerSection.eyebrow, locale)}
             title={t(partnerSection.title, locale)}
-            description={t(partnerSection.description, locale)}
           />
           <div className="mt-10 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
             {partnerSection.logos.map((logo, index) => (
-              <article
+              <a
                 key={`partner-logo-${index}`}
-                className="flex min-h-40 items-center justify-center rounded-[24px] border border-[var(--line)] bg-white p-6 shadow-[var(--shadow-soft)]"
+                href={logo.href}
+                target="_blank"
+                rel="noreferrer"
+                aria-label={`前往 ${logo.name} 官網`}
+                className="group flex min-h-40 items-center justify-center rounded-[24px] border border-[var(--line)] bg-white p-6 shadow-[var(--shadow-soft)] transition duration-200 hover:-translate-y-1 hover:border-[var(--primary)] hover:shadow-[var(--shadow-card)] focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--primary)] focus-visible:ring-offset-2"
               >
                 <div
                   className={`relative h-[6.5rem] w-full ${
-                    logo.name === "Partner 03" ? "scale-[1.19]" : logo.name === "Partner 04" ? "scale-[1.5]" : ""
+                    logo.name === "ENTEK" ? "scale-[1.19]" : logo.name === "Advantech" ? "scale-[1.5]" : ""
                   }`}
                 >
                   <Image
                     src={logo.image}
                     alt={logo.name}
                     fill
-                    className="object-contain"
+                    className="object-contain transition duration-200 group-hover:scale-[1.02]"
                     sizes="320px"
                   />
                 </div>
-              </article>
+              </a>
             ))}
           </div>
         </div>
